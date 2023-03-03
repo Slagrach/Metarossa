@@ -1,0 +1,837 @@
+
+<!DOCTYPE html>
+<html class=registered lang=ru>
+
+<head>
+    <meta charset=utf-8>
+    <!--[if IE]>    <meta http-equiv="X-UA-Compatible" content="IE = edge"><![endif]-->
+    <link rel="shortcut icon" href=favicon.ico>
+    <meta name=viewport content="width=device-width,initial-scale=1">
+    
+    <link rel=stylesheet href=css/style.css>
+    <!--[if lt IE 9]>    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script><![endif]-->
+    <title>Таблица химической стойкости материалов</title>
+</head>
+
+<body>
+    <div class="_table-resistance wrapper" id=wrapper>
+        <header class="_lp header" id=header>
+            <div class=header__top>
+                <div class=header__container>
+                    <div class=header__phones>
+                        <div class="header__phones-item _notMr" style="--margin-right: 25px;"><i class="_phone-icon header__phones-icon">
+                                <picture>
+                                    <source srcset=images/svg/tel-icon.svg type=image/webp><img src=images/svg/tel-icon.svg alt="" loading=lazy>
+                                </picture>
+                            </i><a class="_phone-phone header__phones-phone" href=tel:+74959212280>+7 (495) 921 22 80</a><span class="_phone-text header__phone-text">многоканальный</span></div>
+                        <div class=header__phones-item><i class="_phone-icon header__phones-icon">
+                                <picture>
+                                    <source srcset=images/svg/tel-icon.svg type=image/webp><img src=images/svg/tel-icon.svg alt="" loading=lazy>
+                                </picture>
+                            </i><a class="_phone-phone header__phones-phone" href=tel:+78002502888>8 800 250 28 88</a><span class="_phone-text header__phone-text">бесплатный по России</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class=header__body>
+                <div class=header__container>
+                    <div class=header__content>
+                        <div class=header__content-left> <button class="_icon-burger header__burger-icon icon-menu"></button><a class="_imgFit header__logo" href=#>
+                                <picture>
+                                    <source srcset=images/logo.webp type=image/webp><img class=header__img src=images/logo.png alt="" loading=lazy>
+                                </picture>
+                            </a> </div>
+                        <div class="header__menu menu">
+                            <nav class="_nav menu__body" id=nav>
+                                <div class=menu__content>
+                                    <div class=menu__header> <button class="_icon-cross-small menu__close" type=button></button> </div>
+                                    <div class=menu__buttons>
+                                        <div class=_not-registered><a class="popup-link _user menu__registration" href=#register>Регистрация</a><a class="popup-link _btn-header _sign-in menu__sign-in" href=#login>Войти в систему</a></div>
+                                        <div class=_registered><a class="_user menu__Log-off" href="">Выйти</a><a class="_btn-header menu__questionnaire" href=questionnaires-fittings.html>Опросный лист</a></div>
+                                    </div>
+                                    <ul class=menu__list>
+                                        <li class=menu__item><a class=menu__link href=index.html>Главная</a></li>
+                                        <li class=menu__item><a class=menu__link href=about.html>О компании</a></li>
+                                        <li class=menu__item><a class=menu__link href=products.html>Продукция</a></li>
+                                        <li class=menu__item><a class=menu__link href=certificates.html>Сертификаты</a></li>
+                                        <li class=menu__item><a class=menu__link href=specialists.html>Специалистам</a></li>
+                                        <li class=menu__item><a class=menu__link href=reviews.html>Отзывы</a></li>
+                                        <li class=menu__item><a class=menu__link href=references.html>Референции</a></li>
+                                        <li class=menu__item><a class=menu__link href=contacts.html>Контакты</a></li>
+                                    </ul>
+                                    <div class=menu__footer>
+                                        <div class=menu__footer-items><i class="_phone-icon menu__footer-icon">
+                                                <picture>
+                                                    <source srcset=images/svg/tel-icon.svg type=image/webp><img src=images/svg/tel-icon.svg alt="" loading=lazy>
+                                                </picture>
+                                            </i>
+                                            <div class=menu__footer-item><a class="_phone-phone menu__footer-phone" href=tel:+74959212280>+7 (495) 921 22 80</a><span class="_phone-text menu__footer-text">многоканальный</span></div>
+                                        </div>
+                                        <div class=menu__footer-items><i class="_phone-icon menu__footer-icon">
+                                                <picture>
+                                                    <source srcset=images/svg/tel-icon.svg type=image/webp><img src=images/svg/tel-icon.svg alt="" loading=lazy>
+                                                </picture>
+                                            </i>
+                                            <div class=menu__footer-item><a class="_phone-phone menu__footer-phone" href=tel:+78002502888>8 800 250 28 88</a><span class="_phone-text menu__footer-text">бесплатный по России</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class=header__content-right>
+                            <div class=_not-registered><a class="popup-link _user header__registration" href=#register>Регистрация</a><a class="popup-link _btn-header _sign-in header__sign-in" href=#login>Войти в систему<span class=_ripple></span></a></div>
+                            <div class=_registered><a class=header__login-icon href=personal-account.html>
+                                    <picture>
+                                        <source srcset=images/svg/user-login.svg type=image/webp><img src=images/svg/user-login.svg alt="" loading=lazy>
+                                    </picture>
+                                </a><a class="_user header__log-off" href="">Выйти</a><a class="_btn-header header__questionnaire" href=questionnaires-fittings.html>Опросный лист<span class=_ripple></span></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class=page id=main>
+            <section class="_resistance product">
+                <div class=table-resistance__top-nav id=top-nav-hover>
+                    <div class=table-resistance__container>
+                        <div class=product__nav><a class="_icon-big-arrow-left product__back-link" href=specialists.html>Назад</a>
+                            <div class=product__nav-hover-menu> <button class="_icon-burger product__burger" type=button>Специалистам</button>
+                                <div class=product__catalog-menu>
+                                    <div class="_spoilers catalog__left">
+                                        <aside class=sidebar></aside>
+                                        <nav class=sidebar__nav>
+                                            <ul class=sidebar__list>
+                                                <li class="_item sidebar__item">
+                                                    <div class=sidebar__item-header><i class="sidebar__icon _icon-icon-3"></i><a class=sidebar__link href=photo-video.html>Таблицы стойкости материалов</a><i class="_icon-arrow-right sidebar__arrow"></i></div>
+                                                    <ul class="_list sidebar__sublist">
+                                                        <li class=sidebar__subitem><i class=sidebar__icon></i><a class=sidebar__sublink href=photo-products.html>Продукция</a></li>
+                                                        <li class=sidebar__subitem><i class=sidebar__icon></i><a class=sidebar__sublink href="">Производство</a></li>
+                                                        <li class=sidebar__subitem><i class=sidebar__icon></i><a class=sidebar__sublink href="">Инновации и патенты</a></li>
+                                                        <li class=sidebar__subitem><i class=sidebar__icon></i><a class=sidebar__sublink href="">Исследования и испытания</a></li>
+                                                        <li class=sidebar__subitem><i class=sidebar__icon></i><a class=sidebar__sublink href="">Фото в эксплуатации</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="_item sidebar__item">
+                                                    <div class=sidebar__item-header><i class="sidebar__icon _icon-icon-4"></i><a class=sidebar__link href=testing.html>Исследования и испытания</a></div>
+                                                </li>
+                                                <li class="_item sidebar__item _active">
+                                                    <div class=sidebar__item-header><i class="sidebar__icon _icon-icon-3"></i><a class=sidebar__link href=tables-materials.html>Таблицы стойкости материалов</a><i class="_icon-arrow-right sidebar__arrow"></i></div>
+                                                    <ul class="_list sidebar__sublist">
+                                                        <li class="sidebar__subitem _active"><i class=sidebar__icon></i><a class=sidebar__sublink href=chemical-materials.html>Химическая стойкость материалов</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="_item sidebar__item">
+                                                    <div class=sidebar__item-header><i class="sidebar__icon _icon-icon-2"></i><a class=sidebar__link href=patents.html>Инновации и патенты</a></div>
+                                                </li>
+                                                <li class="_item sidebar__item">
+                                                    <div class=sidebar__item-header><i class="sidebar__icon _icon-icon-1"></i><a class=sidebar__link href=presentations.html>Презентации</a><i class="_icon-arrow-right sidebar__arrow"></i></div>
+                                                    <ul class="_list sidebar__sublist">
+                                                        <li class=sidebar__subitem><i class=sidebar__icon></i><a class=sidebar__sublink href=materials.html>Инновационные материалы</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul><a class="_btn-border sidebar__btn" href=#>Опросный лист</a>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=product__container>
+                    <div class=product__content>
+                        <div class=product__main>
+                            <div class=product__header>
+                                <h2 class=product__title>Метазатворы шиберные KG-ZSK</h2><span class=product__text>Применимость основных материалов общепромышленной и промышленной трубопроводной арматуры в различных средах.</span>
+                            </div>
+                            <div class=table-resistance__body>
+                                <h3 class=table-resistance__body-title>Интерпретация (пояснение) символов</h3>
+                                <div class=_table-overflow>
+                                    <table class=table-small>
+                                        <tbody>
+                                            <tr>
+                                                <td class=table-small__col>
+                                                    <div class=table-small__data><b class=table-small__abbr>П</b><span class=table-small__text>подходит - материал практически не или слабо подвержен воздействию данной среды</span></div>
+                                                </td>
+                                                <td class=table-small__col>
+                                                    <div class=table-small__data><b class=table-small__abbr>М</b><span class=table-small__text>ограничено применимо - материал выдерживает ограниченное по времени воздействие или ведет себя двойственно</span></div>
+                                                </td>
+                                                <td class=table-small__col>
+                                                    <div class=table-small__data><b class=table-small__abbr>Н</b><span class=table-small__text>не подходит - не выдержит никакого разумного срока эксплуатации</span></div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class=table-small__col>
+                                                    <div class=table-small__data><b class=table-small__abbr>NBR</b><span class=table-small__text>бутадиен-нитрильный каучук</span></div>
+                                                </td>
+                                                <td class=table-small__col>
+                                                    <div class=table-small__data><b class=table-small__abbr>EPDM</b><span class=table-small__text>этилен-пропиленовый каучук</span></div>
+                                                </td>
+                                                <td class=table-small__col>
+                                                    <div class=table-small__data><b class=table-small__abbr>FKM</b><span class=table-small__text>фторкаучук</span></div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class=table-small__col>
+                                                    <div class=table-small__data><b class=table-small__abbr>FFKM</b><span class=table-small__text>перфторкаучук</span></div>
+                                                </td>
+                                                <td class=table-small__col>
+                                                    <div class=table-small__data><b class=table-small__abbr>CR</b><span class=table-small__text>аллилдигликолькарбонат</span></div>
+                                                </td>
+                                                <td class=table-small__col>
+                                                    <div class=table-small__data><b class=table-small__abbr>PTFE</b><span class=table-small__text>фторопласт</span></div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class=table-small__col>
+                                                    <div class=table-small__data><b class=table-small__abbr>PVC</b><span class=table-small__text>поливинилхлорид</span></div>
+                                                </td>
+                                                <td class=table-small__col>
+                                                    <div class=table-small__data><b class=table-small__abbr>PP</b><span class=table-small__text>полипропилен</span></div>
+                                                </td>
+                                                <td class=table-small__col>
+                                                    <div class=table-small__data><b class=table-small__abbr>PA</b><span class=table-small__text>полиамид</span></div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class=table-small__col>
+                                                    <div class=table-small__data><b class=table-small__abbr>PVDF</b><span class=table-small__text>поливинилиденфторид</span></div>
+                                                </td>
+                                                <td class=table-small__col>
+                                                    <div class=table-small__data><b class=table-small__abbr>PP</b><span class=table-small__text>полифениленсульфид</span></div>
+                                                </td>
+                                                <td class=table-small__col>
+                                                    <div class=table-small__data><b class=table-small__abbr>PA</b><span class=table-small__text>полиэфирэфиркетон</span></div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <h3 class=table-resistance__body-title>стойкость материалов</h3>
+                                <div class=_table-overflow>
+                                    <table class=table-medium>
+                                        <thead id=table-header-one>
+                                            <tr>
+                                                <th><span class="_table-title table-medium__title">Название</span></th>
+                                                <th><span class="_table-title table-medium__title">Химическая формула</span></th>
+                                                <th><span class="_table-title table-medium__title table-medium__title_vertical">NBR</span></th>
+                                                <th><span class="_table-title table-medium__title table-medium__title_vertical">EPDM</span></th>
+                                                <th><span class="_table-title table-medium__title table-medium__title_vertical">FKM</span></th>
+                                                <th><span class="_table-title table-medium__title table-medium__title_vertical">FFKM</span></th>
+                                                <th><span class="_table-title table-medium__title table-medium__title_vertical">CR</span></th>
+                                                <th><span class="_table-title table-medium__title table-medium__title_vertical">PTFE</span></th>
+                                                <th><span class="_table-title table-medium__title table-medium__title_vertical">PVC</span></th>
+                                                <th><span class="_table-title table-medium__title table-medium__title_vertical">PP</span></th>
+                                                <th><span class="_table-title table-medium__title table-medium__title_vertical">PA</span></th>
+                                                <th><span class="_table-title table-medium__title table-medium__title_vertical">PVDF</span></th>
+                                                <th><span class="_table-title table-medium__title table-medium__title_vertical">PPS</span></th>
+                                                <th><span class="_table-title table-medium__title table-medium__title_vertical">PEEK</span></th>
+                                                <th><span class="_table-title table-medium__title table-medium__title_vertical">Латунь</span></th>
+                                                <th><span class="_table-title table-medium__title table-medium__title_vertical">Красная<br>латунь</span></th>
+                                                <th><span class="_table-title table-medium__title table-medium__title_vertical">Чугун,<br>Углер. сталь</span></th>
+                                                <th><span class="_table-title table-medium__title table-medium__title_vertical">CF8M (SS316)</span></th>
+                                                <th><span class="_table-title table-medium__title table-medium__title_vertical">CF8 (SS304)</span></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <p class=table-medium__text><b>Acetaldehyde- pure</b> / Чистый / ацетальдегид; уксусный альдегид; уксусный оксим чистый</p>
+                                                </td>
+                                                <td><span class=table-medium__text>CH3CHO</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <p class=table-medium__text><b>Acetic acid ethyl ester</b> (ethyl acetate)- pure / Чистый / уксусноэтиловый эфир; этиловый эфир уксусной кислоты</p>
+                                                </td>
+                                                <td><span class=table-medium__text>CH3CO2CH2<br>CH3</span></td>
+                                                <td><span class=table-medium__text>H</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <p class=table-medium__text><b>Acetic acid- pure</b> / Чистый / уксусная кислота</p>
+                                                </td>
+                                                <td><span class=table-medium__text>CH3COOH</span></td>
+                                                <td><span class=table-medium__text>H</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <p class=table-medium__text><b>Acetophenone- pure</b> / Чистый / ацетофенон; метилфенилкетон</p>
+                                                </td>
+                                                <td><span class=table-medium__text>C6H5COCH3</span></td>
+                                                <td><span class=table-medium__text>H</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <p class=table-medium__text><b>Acetylacetone- pure</b> / Чистый / ацетилацетон (2, 4-пентандион)</p>
+                                                </td>
+                                                <td><span class=table-medium__text>CH3COCH2CO<br>CH3</span></td>
+                                                <td><span class=table-medium__text>H</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <p class=table-medium__text><b>Acetyl chloride- pure</b> / Чистый хлористый ацетил</p>
+                                                </td>
+                                                <td><span class=table-medium__text>CH3COCl</span></td>
+                                                <td><span class=table-medium__text>H</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <p class=table-medium__text><b>Acetylene - technical grade</b> / Ацетилен (этин) технический</p>
+                                                </td>
+                                                <td><span class=table-medium__text>HCCH</span></td>
+                                                <td><span class=table-medium__text>H</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <p class=table-medium__text><b>Acrylic acid ethyl ester- pure</b> / Чистый сложный этиловый эфир акриловой кислоты</p>
+                                                </td>
+                                                <td><span class=table-medium__text>CH2CHCOOC<br>2H5</span></td>
+                                                <td><span class=table-medium__text>H</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <p class=table-medium__text><b>Acrylonitrile- pure</b> / Чистый карбакрил, акрилонитрил, нитрил акриловой кислоты; НАК</p>
+                                                </td>
+                                                <td><span class=table-medium__text>CH2CHCN</span></td>
+                                                <td><span class=table-medium__text>H</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <p class=table-medium__text><b>Adipic acid - aqueous</b> / Водный раствор (saturated = насыщенный) адипиновая кислота</p>
+                                                </td>
+                                                <td><span class=table-medium__text>HO2C(CH2)4C<br>O2H</span></td>
+                                                <td><span class=table-medium__text>H</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <p class=table-medium__text><b>Albumin solutions</b> / альбуминные растворы</p>
+                                                </td>
+                                                <td><span class=table-medium__text></span></td>
+                                                <td><span class=table-medium__text>H</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <p class=table-medium__text><b>Alum</b> (potassiumaluminiumsulphate) -aqueous / Водный раствор(saturated = насыщенный)</p>
+                                                </td>
+                                                <td><span class=table-medium__text>KAl(SO4)2*12<br>H2O</span></td>
+                                                <td><span class=table-medium__text>H</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>П</span></td>
+                                                <td><span class=table-medium__text>Н</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                                <td><span class=table-medium__text>М</span></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class=table-resistance__body-text>
+                                    <p class=text> При работе с неизвестной рвбочей мы постоянно сталкиваемся с проблемой подбора материала трубы, клапана, насоса, прочего устройства. Для облегченияработы инженеров и проектировщиков данные таблицы содержат оптимальную информацию для быстрого и правильного выбора материалов уплотнений, корпусов и рабочих деталей для множества сред. Поскольку коррозия является функцией нескольких факторов вся информация из таблицы всего лишь предположительно, а вовсе не обязательно, верна для Ваших условий эксплуатации. </p>
+                                    <p class=text> Повышенные температуры, другие концентрации и содержание влаги врабочих средах могут ускорять коррозию. В зависимости от чистоты среды, состава резиновой смеси (добавок эластомера), качества вулканизации, применимость может отличаться от указанной. На применимость также могут влиять характер, режим и усилие нагузки. В целом - только опыт может дать надежный результат. Поэтому, еще раз повторим, что данные таблицы уж никак не могут быть гарантией чего-либо. </p>
+                                </div>
+                                <h3 class=table-resistance__body-title>стойкость материалов</h3>
+                                <div class=_table-overflow>
+                                    <table class=table-large>
+                                        <thead id=table-header-two>
+                                            <tr>
+                                                <th rowspan=2><span class="_table-title table-large__header-title">Материал</span></th>
+                                                <th rowspan=2><span class="_table-title table-large__header-title">Обозначение</span></th>
+                                                <th rowspan=2><span class="_table-title table-large__header-title">Химическая стойкость</span></th>
+                                                <th colspan=3><span class="_table-title table-large__header-title">Допустимые температуры</span></th>
+                                            </tr>
+                                            <tr>
+                                                <th><span class="_table-title table-large__header-title">Нейтральные жидкости долговременно °C(°F)</span></th>
+                                                <th><span class="_table-title table-large__header-title">Нейтральные жидкости кратковременно °C(°F)</span></th>
+                                                <th><span class="_table-title table-large__header-title">Агрессивные жидкости долговременно C(°F)</span></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td colspan=6 style="padding: 0;"><span class="_body-title table-large__title">Инкапсулюции - Оболочки - Футеровки- Покрытия</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span class=table-large__subtitle>Epoxy resin = эпоксидная смола / эпоксидный полимер / эпоксисмола</span></td>
+                                                <td><b class=table-large__label>EP</b></td>
+                                                <td>
+                                                    <p class=table-large__text>Стойки почти ко всем химическим соединениям. Непригодны для органических кислот с короткими цепями высоких концентраций и к сильным окислителям.</p>
+                                                </td>
+                                                <td><span class=table-large__text>-20 (-4) to +150 (+302)</span></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span class=table-large__subtitle>Polyamide / полиамиды</span></td>
+                                                <td><b class=table-large__label>PA</b></td>
+                                                <td><span class=table-large__text>см. ниже</span></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan=6 style="padding: 0;"><span class="_body-title table-large__title">Прокладки - Уплотнения - Диафрагмы - Манжеты</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span class=table-large__subtitle>Ethylene propylene diene rubber / Этиленпропиленовые каучуки</span></td>
+                                                <td><b class=table-large__label>EPDM</b></td>
+                                                <td>
+                                                    <p class=table-large__text>Хорошая стойкость к озону и воздействию солнечного света, ветра, температуры и влажности. Неподходит для жиров и масел (наьухает и разрушается)</p>
+                                                </td>
+                                                <td><span class=table-large__text>-30 (-22) to +130 (+266)</span></td>
+                                                <td></td>
+                                                <td><span class=table-large__text>Зависит от агрессивности среды и механической нагрузки.</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span class=table-large__subtitle>Fluorine rubber / Фторкаучуки</span></td>
+                                                <td><b class=table-large__label>FKM</b></td>
+                                                <td>
+                                                    <p class=table-large__text>Химическая стойкость самая высокая среди всех эластомеров</p>
+                                                </td>
+                                                <td><span class=table-large__text>-0 °C (+32) to +150 (+302)</span></td>
+                                                <td><span class=table-large__text>-0 °C (+32) to +200 (+392)</span></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span class=table-large__subtitle>Nitrile rubber / Бутадиеннитрильные каучуки</span></td>
+                                                <td><b class=table-large__label>NBR</b></td>
+                                                <td>
+                                                    <p class=table-large__text>Весьма устойчив к бензину и маслам. Неприменим в среде окислителей</p>
+                                                </td>
+                                                <td><span class=table-large__text>-10 (+14) to +90 (+194)</span></td>
+                                                <td><span class=table-large__text>-10 (+14) to +120 (+248)</span></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span class=table-large__subtitle>Chloroprene rubber / Хлоропреновые каучуки</span></td>
+                                                <td><b class=table-large__label>CR</b></td>
+                                                <td>
+                                                    <p class=table-large__text>Химические свойства очень сходны с ПВХ, что-то среднее между NBR и EPDM.</p>
+                                                </td>
+                                                <td><span class=table-large__text>-10 (+14) to +100 (+212)</span></td>
+                                                <td><span class=table-large__text>-10 (+14) to +110 (+230)</span></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span class=table-large__subtitle>Perfluorinated elastomers / перфторэтилены</span></td>
+                                                <td><b class=table-large__label>FFKM</b></td>
+                                                <td>
+                                                    <p class=table-large__text>Сходна с политетрафторэлименом (Ф-4, PTFE) сильно зависит от марки и состава присадок.</p>
+                                                </td>
+                                                <td><span class=table-large__text>5 °C (+41) to +230 (+446)</span></td>
+                                                <td><span class=table-large__text>5 °C (+41) to +230 (446)</span></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span class=table-large__subtitle>Poly tetrafluorethylene / политетрафторэтилен / Ф-4</span></td>
+                                                <td><b class=table-large__label>PTFE</b></td>
+                                                <td></td>
+                                                <td><span class=table-large__text>-20 (-4) to +200 (+392)</span></td>
+                                                <td><span class=table-large__text>-20 (-4) to +260 (+500)</span></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan=6 style="padding: 0;"><span class="_body-title table-large__title">Металлы корпуса, крышки и движущихся частей</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span class=table-large__subtitle>Ethylene propylene diene rubber / Этиленпропиленовые каучуки</span></td>
+                                                <td><b class=table-large__label>EPDM</b></td>
+                                                <td>
+                                                    <p class=table-large__text>Хорошая стойкость к озону и воздействию солнечного света, ветра, температуры и влажности. Неподходит для жиров и масел (наьухает и разрушается)</p>
+                                                </td>
+                                                <td><span class=table-large__text>-30 (-22) to +130 (+266)</span></td>
+                                                <td></td>
+                                                <td><span class=table-large__text>Зависит от агрессивности среды и механической нагрузки.</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span class=table-large__subtitle>Fluorine rubber / Фторкаучуки</span></td>
+                                                <td><b class=table-large__label>FKM</b></td>
+                                                <td><span class=table-large__text>Химическая стойкость самая высокая среди всех эластомеров</span></td>
+                                                <td><span class=table-large__text>-0 °C (+32) to +150 (+302)</span></td>
+                                                <td><span class=table-large__text>-0 °C (+32) to +200 (+392)</span></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span class=table-large__subtitle>Nitrile rubber / Бутадиеннитрильные каучуки</span></td>
+                                                <td><b class=table-large__label>NBR</b></td>
+                                                <td>
+                                                    <p class=table-large__text>Весьма устойчив к бензину и маслам. Неприменим в среде окислителей</p>
+                                                </td>
+                                                <td><span class=table-large__text>-10 (+14) to +90 (+194)</span></td>
+                                                <td><span class=table-large__text>-10 (+14) to +120 (+248)</span></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span class=table-large__subtitle>Chloroprene rubber / Хлоропреновые каучуки</span></td>
+                                                <td><b class=table-large__label>CR</b></td>
+                                                <td>
+                                                    <p class=table-large__text>Химические свойства очень сходны с ПВХ, что-то среднее между NBR и EPDM.</p>
+                                                </td>
+                                                <td><span class=table-large__text>-10 (+14) to +100 (+212)</span></td>
+                                                <td><span class=table-large__text>-10 (+14) to +110 (+230)</span></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span class=table-large__subtitle>Perfluorinated elastomers / перфторэтилены</span></td>
+                                                <td><b class=table-large__label>FFKM</b></td>
+                                                <td>
+                                                    <p class=table-large__text>Сходна с политетрафторэлименом (Ф-4, PTFE) сильно зависит от марки и состава присадок.</p>
+                                                </td>
+                                                <td><span class=table-large__text>5 °C (+41) to +230 (+446)</span></td>
+                                                <td><span class=table-large__text>5 °C (+41) to +230 (446)</span></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span class=table-large__subtitle>Poly tetrafluorethylene / политетрафторэтилен / Ф-4</span></td>
+                                                <td><b class=table-large__label>PTFE</b></td>
+                                                <td></td>
+                                                <td><span class=table-large__text>-20 (-4) to +200 (+392)</span></td>
+                                                <td><span class=table-large__text>-20 (-4) to +260 (+500)</span></td>
+                                                <td></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class=footer id=footer>
+            <div class=footer__container>
+                <div class=footer__content>
+                    <div class=footer__header><a class=footer__logo href="">
+                            <picture>
+                                <source srcset=images/logo-footer.webp type=image/webp><img class=footer__img src=images/logo-footer.png alt="" loading=lazy>
+                            </picture>
+                        </a></div>
+                    <div class=footer__body>
+                        <div class=footer__body-left>
+                            <nav class=footer__nav>
+                                <ul class=footer__list>
+                                    <li class=footer__item><a class=footer__link href=index.html>Главная</a></li>
+                                    <li class=footer__item><a class=footer__link href=about.html>О коммпании</a></li>
+                                    <li class=footer__item><a class=footer__link href=products.html>Продукция</a></li>
+                                    <li class=footer__item><a class=footer__link href=certificates.html>Сертификаты</a></li>
+                                    <li class=footer__item><a class=footer__link href=specialists.html>Специалистам</a></li>
+                                    <li class=footer__item><a class=footer__link href=reviews.html>Отзывы</a></li>
+                                    <li class=footer__item><a class=footer__link href=references.html>Референции</a></li>
+                                    <li class=footer__item><a class=footer__link href=contacts.html>Контакты</a></li>
+                                    <li class=footer__item><a class=footer__link href=policy.html>Политика конфиденциальности</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class=footer__body-right>
+                            <div class=footer__copy><span class=footer__copy-text>© 2003-2022 ООО "МЕТАРОССА"</span></div>
+                            <div class=footer__info>
+                                <div class=footer__info-item><a class="_phone-phone footer__info-tel" href=tel:+74959257588>+7 (495) 925 75 88</a><span class="_phone-text footer__info-text">многоканальный</span></div>
+                                <div class=footer__info-item><a class="_phone-phone footer__info-tel" href=tel:88002505888>8 800 250 58 88</a><span class="_phone-text footer__info-text">бесплатный по России</span></div>
+                                <div class=footer__info-item><a class="_phone-phone footer__info-email" href=mailto:zakaz@metarossa.ru>zakaz@metarossa.ru</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="modal modal-login" id=login>
+        <div class=modal__content>
+            <div class=modal__header> <button class="_icon-cross-small modal__close" type=button></button> </div>
+            <div class=modal__body>
+                <h2 class="_title modal__register-title">Войти в систему</h2><span class=modal__register-note>Для зарегистрированных пользователей</span>
+                <form class=modal__register-form id=form-login>
+                    <div class=form__item> <label class=form__label for=login-name></label> <input class="_border _br form__input" id=login-name name=login-name placeholder=логин> </div>
+                    <div class=form__item> <label class=form__label for=login-password></label> <input class="_border _br form__input" id=login-password type=password name=login-password placeholder=пароль> </div>
+                    <div class=modal__register-footer> <button class="modal__register-btn _btn-red" style="--btn-red-width: 247px;" type=submit>Войти</button><a class="popup-link modal__register-link" href=#password>Забыли пароль?</a><span class=modal__register-or>или</span><a class="popup-link modal__register-link" href=#register>Подать заявку на регистрацию</a> </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="modal modal-register" id=register>
+        <div class=modal__content>
+            <div class=modal__header> <button class="_icon-cross-small modal__close" type=button></button> </div>
+            <div class=modal__body>
+                <h2 class="_title modal__register-title">Заявка на регистрацию</h2><span class=modal__register-note>Заполните анкету</span>
+                <form class=modal__register-form id=form-request>
+                    <div class=modal__register-inner>
+                        <div class=modal__register-left>
+                            <h3 class=modal__register-subtitle>Контактные данные</h3>
+                            <div class=form__item> <label class=form__label for=register-name></label> <input class="_border _br form__input" id=register-name name=register-name placeholder=имя> </div>
+                            <div class=form__item> <label class=form__label for=register-surname></label> <input class="_border _br form__input" id=register-surname name=register-surname placeholder=фамилия> </div>
+                            <div class=form__item> <label class=form__label for=register-patronymic></label> <input class="_border _br form__input" id=register-patronymic name=register-patronymic placeholder=отчество> </div>
+                            <div class=form__item> <label class=form__label for=register-company></label> <input class="_border _br form__input" id=register-company name=register-company placeholder=предприятие> </div>
+                            <div class=form__item> <label class=form__label for=register-subdivision></label> <input class="_border _br form__input" id=register-subdivision name=register-subdivision placeholder=подразделение> </div>
+                            <div class=form__item> <label class=form__label for=register-work-phone></label> <input class="_border _br form__input" id=register-work-phone type=tel name=register-work-phone placeholder="рабочий телефон"> </div>
+                            <div class=form__item> <label class=form__label for=register-mobile-phone></label> <input class="_border _br form__input" id=register-mobile-phone type=tel name=register-mobile-phone placeholder="мобильный телефон"> </div>
+                            <div class=form__item> <label class=form__label for=register-email></label> <input class="_border _br form__input" id=register-email type=email name=register-email placeholder="адрес эл. почты"> </div>
+                        </div>
+                        <div class=modal__register-right>
+                            <h3 class=modal__register-subtitle>Категория специалиста</h3>
+                            <div class=modal__register-items>
+                                <div class=form__item> <input class="_border _br form__input" id=mechanic checked=checked type=radio value=Механик name=category> <label class=form__label for=mechanic><span class=form__input-check-text>Механик</span></label> </div>
+                                <div class=form__item> <input class="_border _br form__input" id=engineer type=radio value=Инженер name=category> <label class=form__label for=engineer><span class=form__input-check-text>Инженер</span></label> </div>
+                                <div class=form__item> <input class="_border _br form__input" id=technologist type=radio value=Технолог name=category> <label class=form__label for=technologist><span class=form__input-check-text>Технолог</span></label> </div>
+                                <div class=form__item> <input class="_border _br form__input" id=designer type=radio value=Проектант name=category> <label class=form__label for=designer><span class=form__input-check-text>Проектант</span></label> </div>
+                                <div class=form__item> <input class="_border _br form__input" id=kip-specialist type=radio value="Специалист КИП и А" name=category> <label class=form__label for=kip-specialist><span class=form__input-check-text>Специалист КИП и А</span></label> </div>
+                            </div>
+                            <h3 class=modal__register-subtitle>Задача, для которой Вы на сайте</h3>
+                            <p class=modal__register-text>1. Подготовить заявку для ремонта или рекомендации с указанием:</p>
+                            <div class=modal__register-radio-items>
+                                <div class=modal__register-radio-item>
+                                    <div class=modal__register-radio-btn> <input class=form__radio id=radio1 type=radio value=1 name=radio1> <label class=form__radio-label for=radio1><span class=modal__register-radio-text>только тех. требования в опросном листе</span></label> </div>
+                                </div>
+                                <div class=modal__register-radio-item>
+                                    <div class=modal__register-radio-btn> <input class=form__radio id=radio2 type=radio value=2 name=radio1> <label class=form__radio-label for=radio2><span class=modal__register-radio-text>Вы имеете полномочия указывать конструкцию и бренд</span></label> </div>
+                                </div>
+                            </div>
+                            <p class=modal__register-text>2. Составить проектную спецификацию с указанием:</p>
+                            <div class=modal__register-radio-items>
+                                <div class=modal__register-radio-item>
+                                    <div class=modal__register-radio-btn> <input class=form__radio id=radio3 type=radio value=3 name=radio2> <label class=form__radio-label for=radio3><span class=modal__register-radio-text>только тех. требования в опросном листе</span></label> </div>
+                                </div>
+                                <div class=modal__register-radio-item>
+                                    <div class=modal__register-radio-btn> <input class=form__radio id=radio4 type=radio value=4 name=radio2> <label class=form__radio-label for=radio4><span class=modal__register-radio-text>Вы имеете полномочия указывать конструкцию и бренд</span></label> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=modal__register-footer> <button class="modal__register-btn _btn-red" style="--btn-red-width: 247px;" type=submit>Отправить заявку</button><span class=modal__register-or>или</span><a class="popup-link modal__register-link" href=#login>Войти в систему</a> </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="modal modal-login-two" id=login-two>
+        <div class=modal__content>
+            <div class=modal__header> <button class="_icon-cross-small modal__close" type=button></button> </div>
+            <div class=modal__body>
+                <h2 class="_title modal__register-title">Войти в систему</h2><span class=modal__register-note>Для просмотра данного раздела необходимо войти в систему</span>
+                <form class=modal__register-form id=form-login-two>
+                    <div class=form__item> <label class=form__label for=login-name-two></label> <input class="_border _br form__input" id=login-name-two name=login-name-two placeholder=логин> </div>
+                    <div class=form__item> <label class=form__label for=login-password-two></label> <input class="_border _br form__input" id=login-password-two type=password name=login-password-two placeholder=пароль> </div>
+                    <div class=modal__register-footer> <button class="modal__register-btn _btn-red" style="--btn-red-width: 247px;" type=submit>Войти</button><a class="popup-link modal__register-link" href=#password>Забыли пароль?</a><span class=modal__register-or>или</span><a class="popup-link modal__register-link" href=#register>Подать заявку на регистрацию</a> </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="modal modal-login-thanks" id="">
+        <div class=modal__content>
+            <div class=modal__header> <button class="_icon-cross-small modal__close" type=button></button> </div>
+            <div class=modal__body>
+                <h2 class="_title modal__register-title">Спасибо за регистрацию!</h2><span class=modal__register-note>Наши специалисты рассмотрят Вашу заявку, и свяжутся по электронной почте с указанием дальнейшей инструкции.</span><a class="modal__register-btn _btn-red" style="--btn-red-width: 247px;" href=index.html>На главную страницу</a>
+            </div>
+        </div>
+    </div>
+    <div class="modal modal-login-password" id=password>
+        <div class=modal__content>
+            <div class=modal__header> <button class="_icon-cross-small modal__close" type=button></button> </div>
+            <div class=modal__body>
+                <h2 class="_title modal__register-title">Сбросить пароль</h2><span class=modal__register-note>Введите адрес своей электронной почты и мы вышлем Вам ссылку для востановления пароля</span>
+                <form class=modal__register-form id=form-login-password>
+                    <div class=form__item> <label class=form__label for=login-email-password></label> <input class="_border _br form__input" id=login-email-password type=email name=login-email-password placeholder="адрес эл. почты"> </div>
+                    <div class=modal__register-footer> <button class="modal__register-btn _btn-red" style="--btn-red-width: 160px;" type=submit>Отправить</button> <button class="modal__register-btn _btn-border" type=reset>Отменить</button> </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="modal modal-login-password-restore" id=login-password-restore>
+        <div class=modal__content>
+            <div class=modal__header> <button class="_icon-cross-small modal__close" type=button></button> </div>
+            <div class=modal__body>
+                <h2 class="_title modal__register-title">Восстаносить пароль</h2><span class=modal__register-note>Для восстановления пароля введите новый</span>
+                <form class=modal__register-form id=form-login-password-restore>
+                    <div class=form__item> <label class=form__label for=password-restore-one></label> <input class="_border _br form__input" id=password-restore-one type=password name=password-restore-one placeholder="введите новый пароль"> </div>
+                    <div class=form__item> <label class=form__label for=password-restore-two></label> <input class="_border _br form__input" id=password-restore-two type=password name=password-restore-two placeholder="повторите новый пароль"> </div>
+                    <div class=modal__register-footer> <button class="modal__register-btn _btn-red" style="--btn-red-width: 247px;" type=submit>Сохранить</button> </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src=js/index.js></script>
+</body>
+
+</html>

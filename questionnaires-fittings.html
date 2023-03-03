@@ -1,0 +1,1112 @@
+
+<!DOCTYPE html>
+<html class=registered lang=ru>
+
+<head>
+    <meta charset=utf-8>
+    <!--[if IE]>    <meta http-equiv="X-UA-Compatible" content="IE = edge"><![endif]-->
+    <link rel="shortcut icon" href=favicon.ico>
+    <meta name=viewport content="width=device-width,initial-scale=1">
+    
+    <link rel=stylesheet href=css/style.css>
+    <!--[if lt IE 9]>    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script><![endif]-->
+    <title>Опросные листы</title>
+</head>
+
+<body>
+    <div class="_questionnaires-fittings wrapper" id=wrapper>
+        <header class="_lp header" id=header>
+            <div class=header__top>
+                <div class=header__container>
+                    <div class=header__phones>
+                        <div class="header__phones-item _notMr" style="--margin-right: 25px;"><i class="_phone-icon header__phones-icon">
+                                <picture>
+                                    <source srcset=images/svg/tel-icon.svg type=image/webp><img src=images/svg/tel-icon.svg alt="" loading=lazy>
+                                </picture>
+                            </i><a class="_phone-phone header__phones-phone" href=tel:+74959212280>+7 (495) 921 22 80</a><span class="_phone-text header__phone-text">многоканальный</span></div>
+                        <div class=header__phones-item><i class="_phone-icon header__phones-icon">
+                                <picture>
+                                    <source srcset=images/svg/tel-icon.svg type=image/webp><img src=images/svg/tel-icon.svg alt="" loading=lazy>
+                                </picture>
+                            </i><a class="_phone-phone header__phones-phone" href=tel:+78002502888>8 800 250 28 88</a><span class="_phone-text header__phone-text">бесплатный по России</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class=header__body>
+                <div class=header__container>
+                    <div class=header__content>
+                        <div class=header__content-left> <button class="_icon-burger header__burger-icon icon-menu"></button><a class="_imgFit header__logo" href=#>
+                                <picture>
+                                    <source srcset=images/logo.webp type=image/webp><img class=header__img src=images/logo.png alt="" loading=lazy>
+                                </picture>
+                            </a> </div>
+                        <div class="header__menu menu">
+                            <nav class="_nav menu__body" id=nav>
+                                <div class=menu__content>
+                                    <div class=menu__header> <button class="_icon-cross-small menu__close" type=button></button> </div>
+                                    <div class=menu__buttons>
+                                        <div class=_not-registered><a class="popup-link _user menu__registration" href=#register>Регистрация</a><a class="popup-link _btn-header _sign-in menu__sign-in" href=#login>Войти в систему</a></div>
+                                        <div class=_registered><a class="_user menu__Log-off" href="">Выйти</a><a class="_btn-header menu__questionnaire" href=questionnaires-fittings.html>Опросный лист</a></div>
+                                    </div>
+                                    <ul class=menu__list>
+                                        <li class=menu__item><a class=menu__link href=index.html>Главная</a></li>
+                                        <li class=menu__item><a class=menu__link href=about.html>О компании</a></li>
+                                        <li class=menu__item><a class=menu__link href=products.html>Продукция</a></li>
+                                        <li class=menu__item><a class=menu__link href=certificates.html>Сертификаты</a></li>
+                                        <li class=menu__item><a class=menu__link href=specialists.html>Специалистам</a></li>
+                                        <li class=menu__item><a class=menu__link href=reviews.html>Отзывы</a></li>
+                                        <li class=menu__item><a class=menu__link href=references.html>Референции</a></li>
+                                        <li class=menu__item><a class=menu__link href=contacts.html>Контакты</a></li>
+                                    </ul>
+                                    <div class=menu__footer>
+                                        <div class=menu__footer-items><i class="_phone-icon menu__footer-icon">
+                                                <picture>
+                                                    <source srcset=images/svg/tel-icon.svg type=image/webp><img src=images/svg/tel-icon.svg alt="" loading=lazy>
+                                                </picture>
+                                            </i>
+                                            <div class=menu__footer-item><a class="_phone-phone menu__footer-phone" href=tel:+74959212280>+7 (495) 921 22 80</a><span class="_phone-text menu__footer-text">многоканальный</span></div>
+                                        </div>
+                                        <div class=menu__footer-items><i class="_phone-icon menu__footer-icon">
+                                                <picture>
+                                                    <source srcset=images/svg/tel-icon.svg type=image/webp><img src=images/svg/tel-icon.svg alt="" loading=lazy>
+                                                </picture>
+                                            </i>
+                                            <div class=menu__footer-item><a class="_phone-phone menu__footer-phone" href=tel:+78002502888>8 800 250 28 88</a><span class="_phone-text menu__footer-text">бесплатный по России</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class=header__content-right>
+                            <div class=_not-registered><a class="popup-link _user header__registration" href=#register>Регистрация</a><a class="popup-link _btn-header _sign-in header__sign-in" href=#login>Войти в систему<span class=_ripple></span></a></div>
+                            <div class=_registered><a class=header__login-icon href=personal-account.html>
+                                    <picture>
+                                        <source srcset=images/svg/user-login.svg type=image/webp><img src=images/svg/user-login.svg alt="" loading=lazy>
+                                    </picture>
+                                </a><a class="_user header__log-off" href="">Выйти</a><a class="_btn-header header__questionnaire" href=questionnaires-fittings.html>Опросный лист<span class=_ripple></span></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class=page id=main>
+            <section class="_questionnaires product questionnaires">
+                <div class=table-resistance__top-nav id=top-nav-hover>
+                    <div class=table-resistance__container>
+                        <div class=product__nav><a class="_icon-big-arrow-left product__back-link" href=specialists.html>Назад</a>
+                            <div class=product__nav-hover-menu> <button class="_icon-burger product__burger" type=button>Специалистам</button>
+                                <div class=product__catalog-menu>
+                                    <div class="_spoilers catalog__left">
+                                        <aside class=sidebar></aside>
+                                        <nav class=sidebar__nav>
+                                            <ul class=sidebar__list>
+                                                <li class="_item sidebar__item">
+                                                    <div class=sidebar__item-header><i class=sidebar__icon>
+                                                            <picture>
+                                                                <source srcset=images/svg/Layer7.svg type=image/webp><img src=images/svg/Layer7.svg alt="" loading=lazy>
+                                                            </picture>
+                                                        </i><a class=sidebar__link href=photo-video.html>Таблицы стойкости материалов</a><i class="_icon-arrow-right sidebar__arrow"></i></div>
+                                                    <ul class="_list sidebar__sublist">
+                                                        <li class=sidebar__subitem><i class=sidebar__icon></i><a class=sidebar__sublink href=photo-products.html>Продукция</a></li>
+                                                        <li class=sidebar__subitem><i class=sidebar__icon></i><a class=sidebar__sublink href="">Производство</a></li>
+                                                        <li class=sidebar__subitem><i class=sidebar__icon></i><a class=sidebar__sublink href="">Инновации и патенты</a></li>
+                                                        <li class=sidebar__subitem><i class=sidebar__icon></i><a class=sidebar__sublink href="">Исследования и испытания</a></li>
+                                                        <li class=sidebar__subitem><i class=sidebar__icon></i><a class=sidebar__sublink href="">Фото в эксплуатации</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="_item sidebar__item">
+                                                    <div class=sidebar__item-header><i class=sidebar__icon>
+                                                            <picture>
+                                                                <source srcset=images/svg/performance1.svg type=image/webp><img src=images/svg/performance1.svg alt="" loading=lazy>
+                                                            </picture>
+                                                        </i><a class=sidebar__link href=testing.html>Исследования и испытания</a></div>
+                                                </li>
+                                                <li class="_item sidebar__item _active">
+                                                    <div class=sidebar__item-header><i class=sidebar__icon>
+                                                            <picture>
+                                                                <source srcset=images/svg/experiment1.svg type=image/webp><img src=images/svg/experiment1.svg alt="" loading=lazy>
+                                                            </picture>
+                                                        </i><a class=sidebar__link href=tables-materials.html>Таблицы стойкости материалов</a><i class="_icon-arrow-right sidebar__arrow"></i></div>
+                                                    <ul class="_list sidebar__sublist">
+                                                        <li class="sidebar__subitem _active"><i class=sidebar__icon></i><a class=sidebar__sublink href=chemical-materials.html>Химическая стойкость материалов</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="_item sidebar__item">
+                                                    <div class=sidebar__item-header><i class=sidebar__icon>
+                                                            <picture>
+                                                                <source srcset=images/svg/technology1.svg type=image/webp><img src=images/svg/technology1.svg alt="" loading=lazy>
+                                                            </picture>
+                                                        </i><a class=sidebar__link href=patents.html>Инновации и патенты</a></div>
+                                                </li>
+                                                <li class="_item sidebar__item">
+                                                    <div class=sidebar__item-header><i class=sidebar__icon>
+                                                            <picture>
+                                                                <source srcset=images/svg/Group.svg type=image/webp><img src=images/svg/Group.svg alt="" loading=lazy>
+                                                            </picture>
+                                                        </i><a class=sidebar__link href=presentations.html>Презентации</a><i class="_icon-arrow-right sidebar__arrow"></i></div>
+                                                    <ul class="_list sidebar__sublist">
+                                                        <li class=sidebar__subitem><i class=sidebar__icon></i><a class=sidebar__sublink href=materials.html>Инновационные материалы</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul><a class="_btn-border sidebar__btn" href=questionnaires-fittings.html>Опросный лист</a>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=product__container>
+                    <div class=product__content>
+                        <div class=product__main>
+                            <div class=product__header>
+                                <h2 class=product__title>Опросные листы</h2>
+                            </div>
+                            <div class="_tabs questionnaires__tabs">
+                                <div class="_spoilers product__filter questionnaires__filter" id=product-filter>
+                                    <div class=product__filter-inner><span class="_br _spoiler references__filter-choice"><span class=references__filter-current id=product-choice>Трубопроводная арматура</span><i class="_icon-arrow-down references__btn-choice-icon"></i></span>
+                                        <ul class=references__list>
+                                            <li class="_active _tabs-item references__item"> <button class="_br references__btn" type=button>Трубопроводы</button><i class="_icon-check-small references__btn-icon"></i> </li>
+                                            <li class="_tabs-item references__item"> <button class="_br references__btn" type=button>Трубопроводная арматура</button><i class="_icon-check-small references__btn-icon"></i> </li>
+                                            <li class="_tabs-item references__item"> <button class="_br references__btn" type=button>Пульповые и шламовые насосы</button><i class="_icon-check-small references__btn-icon"></i> </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class=questionnaires__file><a class=questionnaires__file-link href="">Cкачать опросный лист<i class="_icon-download questionnaires__file-icon"></i></a></div>
+                                <form class=questionnaires__form>
+                                    <div class="_active _tab questionnaires__tab">
+                                        <table class=questionnaires__table>
+                                            <thead>
+                                                <tr>
+                                                    <th colspan=18><span class=questionnaires__table-title>ОПРОСНЫЙ ЛИСТ ДЛЯ ПОДБОРА ТРУБОПРОВОДНОЙ АРМАТУРЫ</span></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td colspan=9 style="padding: 0;"><span class="_body-title questionnaires__table-title">информация о заказчике</span></td>
+                                                    <td colspan=9 style="padding: 0;"><span class="_body-title questionnaires__table-title">информация о ТОВАРЕ</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=3>Дата заказа</td>
+                                                    <td colspan=6> <input name=""> </td>
+                                                    <td colspan=3>Наименование арматуры</td>
+                                                    <td colspan=6> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=3>Заказчик</td>
+                                                    <td colspan=6> <input name=""> </td>
+                                                    <td colspan=3>Вид арматуры/исполнение</td>
+                                                    <td colspan=6> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=3>ФИО специалиста</td>
+                                                    <td colspan=6> <input name=""> </td>
+                                                    <td colspan=3 rowspan=2>Объект, место установки (снаружи/помещение),темп. окр.среды</td>
+                                                    <td colspan=6 rowspan=2> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=3>Телефон</td>
+                                                    <td colspan=6> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=3>Email</td>
+                                                    <td colspan=6> <input name=""> </td>
+                                                    <td colspan=3>Количество, шт.</td>
+                                                    <td colspan=6> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=18 style="padding: 0;"><span class="_body-title questionnaires__table-title">ПАРАМЕТРЫ РАБОЧЕЙ СРЕДЫ</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6>Рабочая среда</td>
+                                                    <td colspan=12> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6>Наименование среды / химический состав</td>
+                                                    <td colspan=12> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6>Примеси/твердые частицы % содержание/размер до мм</td>
+                                                    <td colspan=12> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6>Агрессивность среды, pH</td>
+                                                    <td colspan=12> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6>Рабочее давление, бар/кгс/см2</td>
+                                                    <td colspan=2>мин.</td>
+                                                    <td colspan=2> <input name=""> </td>
+                                                    <td colspan=2>ном.</td>
+                                                    <td colspan=2> <input name=""> </td>
+                                                    <td colspan=2>макс.</td>
+                                                    <td colspan=2> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6>Перепад давления, бар/кгс/см2</td>
+                                                    <td colspan=2>мин.</td>
+                                                    <td colspan=2> <input name=""> </td>
+                                                    <td colspan=2>ном.</td>
+                                                    <td colspan=2> <input name=""> </td>
+                                                    <td colspan=2>макс.</td>
+                                                    <td colspan=2> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6>Температура среды, оС</td>
+                                                    <td colspan=2>мин.</td>
+                                                    <td colspan=2> <input name=""> </td>
+                                                    <td colspan=2>ном.</td>
+                                                    <td colspan=2> <input name=""> </td>
+                                                    <td colspan=2>макс.</td>
+                                                    <td colspan=2> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6>Расход, м3/час</td>
+                                                    <td colspan=2>мин.</td>
+                                                    <td colspan=2> <input name=""> </td>
+                                                    <td colspan=2>ном.</td>
+                                                    <td colspan=2> <input name=""> </td>
+                                                    <td colspan=2>макс.</td>
+                                                    <td colspan=2> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=18 style="padding: 0;"><span class="_body-title questionnaires__table-title">ПАРАМЕТРЫ АРМАТУРЫ</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6>Тип привода</td>
+                                                    <td colspan=12> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6>При отсутствии питания (напряжения, давления)</td>
+                                                    <td colspan=12> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6>Давление упарвления, бар.</td>
+                                                    <td colspan=2>мин.</td>
+                                                    <td colspan=2> <input name=""> </td>
+                                                    <td colspan=2>ном.</td>
+                                                    <td colspan=2> <input name=""> </td>
+                                                    <td colspan=2>макс.</td>
+                                                    <td colspan=2> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6>Время срабатывания (сек)</td>
+                                                    <td colspan=2>откр.</td>
+                                                    <td colspan=4> <input name=""> </td>
+                                                    <td colspan=2>закр.</td>
+                                                    <td colspan=4> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6>Напряжение питание, вольт</td>
+                                                    <td colspan=12> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6>Сигнала управления</td>
+                                                    <td colspan=12> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=18 style="padding: 0;"><span class="_body-title questionnaires__table-title">ПРИНАДЛЕЖНОСТИ</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6><b class=questionnaires__table-subtitle>Блок концевых выключателей</b></td>
+                                                    <td colspan=12></td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6>Давление упарвления, бар.</td>
+                                                    <td colspan=12> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6>Время срабатывания (сек)</td>
+                                                    <td colspan=12> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6>Напряжение питание, вольт</td>
+                                                    <td colspan=12> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6><b class=questionnaires__table-subtitle>Пневмораспределитель</b></td>
+                                                    <td colspan=12></td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6>Тип</td>
+                                                    <td colspan=12> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6>Напряжение</td>
+                                                    <td colspan=12> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6>Пневматический сигнал, бар</td>
+                                                    <td colspan=12> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6>Расположение</td>
+                                                    <td colspan=12> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6>Ручное дублирования распределителя</td>
+                                                    <td colspan=12> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6><b class=questionnaires__table-subtitle>Позиционер</b></td>
+                                                    <td colspan=12></td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6>Тип</td>
+                                                    <td colspan=12> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6>Сигнал управления</td>
+                                                    <td colspan=12> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6>Протокол передачи данных</td>
+                                                    <td colspan=12> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6 rowspan=2>Обратная связь</td>
+                                                    <td colspan=4>Концевые выключатели</td>
+                                                    <td colspan=2>Требование</td>
+                                                    <td colspan=2> <input name=""> </td>
+                                                    <td colspan=2>Напряжение</td>
+                                                    <td colspan=2> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=4>Датчик положения</td>
+                                                    <td colspan=8> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6>Манометры</td>
+                                                    <td colspan=12> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6><b>Фильтр-регулятор</b></td>
+                                                    <td colspan=12> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6><b>Редуктор-дублер</b></td>
+                                                    <td colspan=12> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6><b>Арматура применяемая в настоящее время</b></td>
+                                                    <td colspan=12> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6>Примечание</td>
+                                                    <td colspan=12> <input name=""> </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="questionnaires__table-mobile table-mobile">
+                                            <div class=table-mobile__header><span class=table-mobile__title>ОПРОСНЫЙ ЛИСТ ДЛЯ ПОДБОРА ТРУБОПРОВОДНОЙ АРМАТУРЫ</span></div><span class="_body-title table-mobile__subtitle">информация о заказчике</span>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>Дата заказа</label> <input class=table-mobile__input name=""> </div>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>Заказчик</label> <input class=table-mobile__input name=""> </div>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>ФИО специалиста</label> <input class=table-mobile__input name=""> </div>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>Телефон</label> <input class=table-mobile__input name=""> </div>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>Email</label> <input class=table-mobile__input name=""> </div><span class="_body-title table-mobile__subtitle">информация о ТОВАРЕ</span>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>Наименование арматуры</label> <input class=table-mobile__input name=""> </div>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>Вид арматуры/исполнение</label> <input class=table-mobile__input name=""> </div>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>Объект, место установки (снаружи/помещение),темп. окр.среды</label> <textarea class=table-mobile__textarea name=""></textarea> </div>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>Количество, шт.</label> <input class=table-mobile__input name=""> </div><span class="_body-title table-mobile__subtitle">ПАРАМЕТРЫ РАБОЧЕЙ СРЕДЫ</span>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>Рабочая среда</label> <input class=table-mobile__input name=""> </div>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>Наименование среды / химический состав</label> <textarea class=table-mobile__textarea name=""></textarea> </div>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>Примеси/твердые частицы % содержание/размер до мм</label> <textarea class=table-mobile__textarea name=""></textarea> </div>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>Агрессивность среды, pH</label> <input class=table-mobile__input name=""> </div>
+                                            <div class=table-mobile__item><span class=table-mobile__label>Рабочее давление, бар/кгс/см2</span>
+                                                <div class=table-mobile__item-items>
+                                                    <div class=table-mobile__item> <label class=table-mobile__label>мин.</label> <input class=table-mobile__input name=""> </div>
+                                                    <div class=table-mobile__item> <label class=table-mobile__label>ном.</label> <input class=table-mobile__input name=""> </div>
+                                                    <div class=table-mobile__item> <label class=table-mobile__label>макс.</label> <input class=table-mobile__input name=""> </div>
+                                                </div>
+                                            </div>
+                                            <div class=table-mobile__item><span class=table-mobile__label>Перепад давления, бар/кгс/см2</span>
+                                                <div class=table-mobile__item-items>
+                                                    <div class=table-mobile__item> <label class=table-mobile__label>мин.</label> <input class=table-mobile__input name=""> </div>
+                                                    <div class=table-mobile__item> <label class=table-mobile__label>ном.</label> <input class=table-mobile__input name=""> </div>
+                                                    <div class=table-mobile__item> <label class=table-mobile__label>макс.</label> <input class=table-mobile__input name=""> </div>
+                                                </div>
+                                            </div>
+                                            <div class=table-mobile__item><span class=table-mobile__label>Температура среды, оС</span>
+                                                <div class=table-mobile__item-items>
+                                                    <div class=table-mobile__item> <label class=table-mobile__label>мин.</label> <input class=table-mobile__input name=""> </div>
+                                                    <div class=table-mobile__item> <label class=table-mobile__label>ном.</label> <input class=table-mobile__input name=""> </div>
+                                                    <div class=table-mobile__item> <label class=table-mobile__label>макс.</label> <input class=table-mobile__input name=""> </div>
+                                                </div>
+                                            </div>
+                                            <div class=table-mobile__item><span class=table-mobile__label>Расход, м3/час</span>
+                                                <div class=table-mobile__item-items>
+                                                    <div class=table-mobile__item> <label class=table-mobile__label>мин.</label> <input class=table-mobile__input name=""> </div>
+                                                    <div class=table-mobile__item> <label class=table-mobile__label>ном.</label> <input class=table-mobile__input name=""> </div>
+                                                    <div class=table-mobile__item> <label class=table-mobile__label>макс.</label> <input class=table-mobile__input name=""> </div>
+                                                </div>
+                                            </div><span class="_body-title table-mobile__subtitle">ПАРАМЕТРЫ АРМАТУРЫ</span>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>Тип привода</label> <input class=table-mobile__input name=""> </div>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>При отсутствии питания (напряжения, давления)</label> <textarea class=table-mobile__textarea name=""></textarea> </div>
+                                            <div class=table-mobile__item><span class=table-mobile__label>Давление упарвления, бар.</span>
+                                                <div class=table-mobile__item-items>
+                                                    <div class=table-mobile__item> <label class=table-mobile__label>мин.</label> <input class=table-mobile__input name=""> </div>
+                                                    <div class=table-mobile__item> <label class=table-mobile__label>ном.</label> <input class=table-mobile__input name=""> </div>
+                                                    <div class=table-mobile__item> <label class=table-mobile__label>макс.</label> <input class=table-mobile__input name=""> </div>
+                                                </div>
+                                            </div>
+                                            <div class=table-mobile__item><span class=table-mobile__label>Время срабатывания (сек)</span>
+                                                <div class=table-mobile__item-items>
+                                                    <div class=table-mobile__item> <label class=table-mobile__label>откр..</label> <input class=table-mobile__input name=""> </div>
+                                                    <div class=table-mobile__item> <label class=table-mobile__label>закр.</label> <input class=table-mobile__input name=""> </div>
+                                                </div>
+                                            </div>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>Напряжение питание, вольт</label> <input class=table-mobile__input name=""> </div>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>Сигнала управления</label> <input class=table-mobile__input name=""> </div><span class="_body-title table-mobile__subtitle">ПРИНАДЛЕЖНОСТИ</span><b class=table-mobile__subtitle>Блок концевых выключателей</b>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>Давление упарвления, бар.</label> <input class=table-mobile__input name=""> </div>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>Время срабатывания (сек)</label> <input class=table-mobile__input name=""> </div>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>Напряжение питание, вольт</label> <input class=table-mobile__input name=""> </div><b class=table-mobile__subtitle>Пневмораспределитель</b>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>Тип</label> <input class=table-mobile__input name=""> </div>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>Напряжение</label> <input class=table-mobile__input name=""> </div>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>Пневматический сигнал, бар</label> <input class=table-mobile__input name=""> </div>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>Расположение</label> <input class=table-mobile__input name=""> </div>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>Ручное дублирования распределителя</label> <input class=table-mobile__input name=""> </div><b class=table-mobile__subtitle>Позиционер</b>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>Тип</label> <input class=table-mobile__input name=""> </div>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>Сигнал управления</label> <input class=table-mobile__input name=""> </div>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>Протокол передачи данных</label> <input class=table-mobile__input name=""> </div>
+                                            <div class=table-mobile__item><span class=table-mobile__label>Обратная связь</span><span class=table-mobile__label>Концевые выключатели</span>
+                                                <div class=table-mobile__item-items>
+                                                    <div class="table-mobile__item _item-sm-mobile"> <label class=table-mobile__label style="width: 35%;">Требование</label> <input class=table-mobile__input name="" style="width: 65%;"> </div>
+                                                    <div class="table-mobile__item _item-sm-mobile"> <label class=table-mobile__label style="width: 35%;">Напряжение</label> <input class=table-mobile__input name="" style="width: 65%;"> </div>
+                                                </div>
+                                            </div>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>Датчик положения</label> <input class=table-mobile__input name=""> </div>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>Манометры</label> <input class=table-mobile__input name=""> </div>
+                                            <div class=table-mobile__item> <label class=table-mobile__label><b>Фильтр-регулятор</b></label> <input class=table-mobile__input name=""> </div>
+                                            <div class=table-mobile__item> <label class=table-mobile__label><b>Редуктор-дублер</b></label> <input class=table-mobile__input name=""> </div>
+                                            <div class=table-mobile__item> <label class=table-mobile__label><b>Арматура применяемая в настоящее время</b></label> <input class=table-mobile__input name=""> </div>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>Примечание</label> <textarea class=table-mobile__textarea name="" style="border: none;"></textarea> </div>
+                                        </div>
+                                    </div>
+                                    <div class="_tab questionnaires__tab">
+                                        <table class=questionnaires__table>
+                                            <thead>
+                                                <tr>
+                                                    <th colspan=18><span class=questionnaires__table-title>ОПРОСНЫЙ ЛИСТ ДЛЯ ПОДБОРА ТРУБОПРОВОДа для абразивов и агрессивных шламов</span></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td colspan=18 style="padding: 0;"><span class="_body-title questionnaires__table-title">информация о заказчике</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=3>Наименование участка</td>
+                                                    <td colspan=6> <input name=""> </td>
+                                                    <td colspan=3>Телефон</td>
+                                                    <td colspan=6> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=3>Контактное лицо</td>
+                                                    <td colspan=6> <input name=""> </td>
+                                                    <td colspan=3>Email</td>
+                                                    <td colspan=6> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=18 style="padding: 0;"><span class="_body-title questionnaires__table-title">Вид, тип, характеристики</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6><b>Вид изделия</b></td>
+                                                    <td colspan=8>
+                                                        <div class=questionnaires__table-col--check>
+                                                            <div class=questionnaires__table-item> <input id=pipeline type=checkbox value="" name=""> <label for=pipeline>Трубопровод</label> </div>
+                                                            <div class=questionnaires__table-item> <input id=tap type=checkbox value="" name=""> <label for=tap>Отвод</label> </div>
+                                                            <div class=questionnaires__table-item> <input id=tee type=checkbox value="" name=""> <label for=tee>Тройник</label> </div>
+                                                            <div class=questionnaires__table-item> <input id=transition type=checkbox value="" name=""> <label for=transition>Переход</label> </div>
+                                                        </div>
+                                                    </td>
+                                                    <td colspan=4>
+                                                        <div class=_item-input> <label for=other>Другое:</label> <input id=other name=""> </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6 rowspan=3><b>Характеристики изделия</b></td>
+                                                    <td colspan=4>Диаметр изделия (DN/D), мм</td>
+                                                    <td colspan=2>внутр.</td>
+                                                    <td colspan=2> <input name=""> </td>
+                                                    <td colspan=2>наруж.</td>
+                                                    <td colspan=2> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=4>Необходимый угол изгиба (для отводов)</td>
+                                                    <td class=questionnaires__table-col--check-degrees colspan=8>
+                                                        <div class=questionnaires__table-item> <input id=30 type=checkbox value="" name=""> <label for=30>30°</label> </div>
+                                                        <div class=questionnaires__table-item> <input id=45 type=checkbox value="" name=""> <label for=45>45°</label> </div>
+                                                        <div class=questionnaires__table-item> <input id=60 type=checkbox value="" name=""> <label for=60>60°</label> </div>
+                                                        <div class=questionnaires__table-item> <input id=75 type=checkbox value="" name=""> <label for=75>75°</label> </div>
+                                                        <div class=questionnaires__table-item> <input id=90 type=checkbox value="" name=""> <label for=90>90°</label> </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=4>PN/P, Номинальное/Рабочее давление</td>
+                                                    <td colspan=2>кг</td>
+                                                    <td colspan=2> <input name=""> </td>
+                                                    <td colspan=2>см²</td>
+                                                    <td colspan=2> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=18 style="padding: 0;"><span class="_body-title questionnaires__table-title">Эксплуатация</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6><b>Кол-во насосов</b></td>
+                                                    <td colspan=2>рабочих</td>
+                                                    <td colspan=4> <input name=""> </td>
+                                                    <td colspan=2>резервных</td>
+                                                    <td colspan=4> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6 rowspan=6><b>Рабочая среда</b></td>
+                                                    <td colspan=4>Наименование</td>
+                                                    <td colspan=8> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=4>Гранулометрический состав</td>
+                                                    <td colspan=8> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=4>Размер частиц</td>
+                                                    <td colspan=2>от – до мм</td>
+                                                    <td colspan=2> <input name=""> </td>
+                                                    <td colspan=2>Кол-во, %</td>
+                                                    <td colspan=2> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=4>Концентрация пульпы (Т/Ж)</td>
+                                                    <td colspan=2>%</td>
+                                                    <td colspan=6> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=4>Наличие кислот и щелочей</td>
+                                                    <td colspan=2>Ph</td>
+                                                    <td colspan=6> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=4>Наименование/Количество %</td>
+                                                    <td colspan=8> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=18 style="padding: 0;"><span class="_body-title questionnaires__table-title">Дополнительно</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6><b>Тип соединения</b></td>
+                                                    <td colspan=12>
+                                                        <div class=questionnaires__table-item> <input id=welding type=checkbox value="" name=""> <label for=welding>Под приварку</label> </div>
+                                                        <div class=questionnaires__table-item> <input id=flanged type=checkbox value="" name=""> <label for=flanged>Фланцевое</label> </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6><b>Из какого материала сейчас эксплуатируется</b></td>
+                                                    <td colspan=12> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6><b>Срок эксплуатируемого до замены (месяцев)</b></td>
+                                                    <td colspan=12> <input name=""> </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="questionnaires__table-mobile table-mobile">
+                                            <div class=table-mobile__header><span class=table-mobile__title>ОПРОСНЫЙ ЛИСТ ДЛЯ ПОДБОРА ТРУБОПРОВОДа для абразивов и агрессивных шламов</span></div><span class="_body-title table-mobile__subtitle">информация о заказчике</span>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>Наименование участка</label> <input class=table-mobile__input name=""> </div>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>Контактное лицо</label> <input class=table-mobile__input name=""> </div>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>Телефон</label> <input class=table-mobile__input name=""> </div>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>Email</label> <input class=table-mobile__input name=""> </div><span class="_body-title table-mobile__subtitle">Вид, тип, характеристики</span><b class=table-mobile__subtitle>Вид изделия</b>
+                                            <div class="table-mobile__item _mobile-items">
+                                                <div class=table-mobile__item-items>
+                                                    <div class=questionnaires__table-item> <input id=pipeline-mobile type=checkbox value="" name=""> <label for=pipeline-mobile>Трубопровод</label> </div>
+                                                    <div class=questionnaires__table-item> <input id=tap-mobile type=checkbox value="" name=""> <label for=tap-mobile>Отвод</label> </div>
+                                                </div>
+                                                <div class=table-mobile__item-items>
+                                                    <div class=questionnaires__table-item> <input id=tee-mobile type=checkbox value="" name=""> <label for=tee-mobile>Тройник</label> </div>
+                                                    <div class=questionnaires__table-item> <input id=transition-mobile type=checkbox value="" name=""> <label for=transition-mobile>Переход</label> </div>
+                                                </div>
+                                            </div>
+                                            <div class="table-mobile__item _border-item _item-input"> <label class=table-mobile__label for=other-mobile style="width: 22%; margin: 0; padding-right: 0;">Другое:</label> <input class=table-mobile__input id=other-mobile name="" style="width: 77.2%;"> </div><b class=table-mobile__subtitle>Характеристики изделия</b>
+                                            <div class=table-mobile__item><span class=table-mobile__label>Диаметр изделия (DN/D), мм</span>
+                                                <div class=table-mobile__item-items>
+                                                    <div class=table-mobile__item> <label class=table-mobile__label>внутр.</label> <input class=table-mobile__input name="" style="border-bottom: 1px solid rgba(216, 216, 216, 1);"> </div>
+                                                    <div class=table-mobile__item> <label class=table-mobile__label>наруж.</label> <input class=table-mobile__input name="" style="border-bottom: 1px solid rgba(216, 216, 216, 1);"> </div>
+                                                </div>
+                                            </div>
+                                            <div class=table-mobile__item>
+                                                <div class=table-mobile__label>Необходимый угол изгиба (для отводов)</div>
+                                            </div>
+                                            <div class="table-mobile__item _mobile-items _mobile-items--degrees">
+                                                <div class=questionnaires__table-item> <input id=30-mobile type=checkbox value="" name=""> <label for=30-mobile>30°</label> </div>
+                                                <div class=questionnaires__table-item> <input id=45-mobile type=checkbox value="" name=""> <label for=45-mobile>45°</label> </div>
+                                                <div class=questionnaires__table-item> <input id=60-mobile type=checkbox value="" name=""> <label for=60-mobile>60°</label> </div>
+                                                <div class=questionnaires__table-item> <input id=75-mobile type=checkbox value="" name=""> <label for=75-mobile>75°</label> </div>
+                                                <div class=questionnaires__table-item> <input id=90-mobile type=checkbox value="" name=""> <label for=90-mobile>90°</label> </div>
+                                            </div>
+                                            <div class=table-mobile__item><span class=table-mobile__label>PN/P, Номинальное/Рабочее давление</span>
+                                                <div class=table-mobile__item-items>
+                                                    <div class=table-mobile__item> <label class=table-mobile__label>кг</label> <input class=table-mobile__input name=""> </div>
+                                                    <div class=table-mobile__item> <label class=table-mobile__label>см²</label> <input class=table-mobile__input name=""> </div>
+                                                </div>
+                                            </div><span class="_body-title table-mobile__subtitle">Эксплуатация</span><b class=table-mobile__subtitle>Кол-во насосов</b>
+                                            <div class=table-mobile__item>
+                                                <div class="table-mobile__item-items _370">
+                                                    <div class=table-mobile__item> <label class=table-mobile__label>рабочих</label> <input class=table-mobile__input name=""> </div>
+                                                    <div class=table-mobile__item> <label class=table-mobile__label>резервных</label> <input class=table-mobile__input name=""> </div>
+                                                </div>
+                                            </div><b class=table-mobile__subtitle>Рабочая среда</b>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>Наименование</label> <input class=table-mobile__input name=""> </div>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>Гранулометрический состав</label> <input class=table-mobile__input name=""> </div>
+                                            <div class=table-mobile__item><span class=table-mobile__label>Размер частиц</span>
+                                                <div class="table-mobile__item-items _370">
+                                                    <div class=table-mobile__item> <label class=table-mobile__label style="width: 37%;">от – до мм</label> <input class=table-mobile__input name="" style="width: 63%;"> </div>
+                                                    <div class=table-mobile__item> <label class=table-mobile__label style="width: 37%;">Кол-во, %</label> <input class=table-mobile__input name="" style="width: 63%;"> </div>
+                                                </div>
+                                            </div>
+                                            <div class=table-mobile__item><span class=table-mobile__label>Концентрация пульпы (Т/Ж)</span>
+                                                <div class=table-mobile__item-items>
+                                                    <div class=table-mobile__item> <label class=table-mobile__label>%</label> <input class=table-mobile__input name=""> </div>
+                                                </div>
+                                            </div>
+                                            <div class=table-mobile__item><span class=table-mobile__label>Наличие кислот и щелочей</span>
+                                                <div class=table-mobile__item-items>
+                                                    <div class=table-mobile__item> <label class=table-mobile__label>Ph</label> <input class=table-mobile__input name=""> </div>
+                                                </div>
+                                            </div>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>Наименование/Количество %</label> <input class=table-mobile__input name=""> </div><span class="_body-title table-mobile__subtitle">Вид, тип, характеристики</span><b class=table-mobile__subtitle><b>Тип соединения</b></b>
+                                            <div class="table-mobile__item _mobile-items _mobile-items--last">
+                                                <div class=questionnaires__table-item> <input id=welding-mobile type=checkbox value="" name=""> <label for=welding-mobile>Под приварку</label> </div>
+                                                <div class=questionnaires__table-item> <input id=flanged-mobile type=checkbox value="" name=""> <label for=flanged-mobile>Фланцевое</label> </div>
+                                            </div>
+                                            <div class=table-mobile__item> <label class=table-mobile__label><b>Из какого материала сейчас эксплуатируется</b></label> <input class=table-mobile__input name=""> </div>
+                                            <div class=table-mobile__item> <label class=table-mobile__label><b>Срок эксплуатируемого до замены (месяцев)</b></label> <input class=table-mobile__input name="" style="border: none;"> </div>
+                                        </div>
+                                    </div>
+                                    <div class="_tab questionnaires__tab">
+                                        <table class=questionnaires__table>
+                                            <thead>
+                                                <tr>
+                                                    <th colspan=24><span class=questionnaires__table-title>Опросный лист для пульпового и шламового насоса (не погружного)</span></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td colspan=24 style="padding: 0;"><span class="_body-title questionnaires__table-title">информация о заказчике</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=4>Наименование участка</td>
+                                                    <td colspan=8> <input name=""> </td>
+                                                    <td colspan=4>Телефон</td>
+                                                    <td colspan=8> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=4>Контактное лицо</td>
+                                                    <td colspan=8> <input name=""> </td>
+                                                    <td colspan=4>Email</td>
+                                                    <td colspan=8> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=24 style="padding: 0;"><span class="_body-title questionnaires__table-title">количество, тип</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=8>Кол-во насосов</td>
+                                                    <td colspan=3>рабочих</td>
+                                                    <td colspan=4> <input name=""> </td>
+                                                    <td colspan=3>резервных</td>
+                                                    <td colspan=6> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=8>Тип насоса</td>
+                                                    <td colspan=16>
+                                                        <div class=questionnaires__table-item> <input id=horizontal type=checkbox value="" name=""> <label for=horizontal>горизонтальный</label> </div>
+                                                        <div class=questionnaires__table-item> <input id=cantilevered type=checkbox value="" name=""> <label for=cantilevered>консольный</label> </div>
+                                                        <div class=questionnaires__table-item> <input id=self-priming type=checkbox value="" name=""> <label for=self-priming>самовсасывающий</label> </div>
+                                                        <div class=questionnaires__table-item> <input id=vertical type=checkbox value="" name=""> <label for=vertical>вертикальный</label> </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=8>Укажите марку существующего оборудования и материал колеса и улиты</td>
+                                                    <td colspan=16> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=24 style="padding: 0;"><span class="_body-title questionnaires__table-title">Характеристики</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6>Подача Q НОМ, м³/ч</td>
+                                                    <td colspan=6> <input name=""> </td>
+                                                    <td colspan=6>Н НОМ, м. ст. ж.</td>
+                                                    <td colspan=6> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6>Подача Q MIN, м³/ч</td>
+                                                    <td colspan=6> <input name=""> </td>
+                                                    <td colspan=6>Подача QМАХ, м³/ч</td>
+                                                    <td colspan=6> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6>Р нас. паров, бар абс.</td>
+                                                    <td colspan=6> <input name=""> </td>
+                                                    <td colspan=6>Р МАХ сист., бар изб.</td>
+                                                    <td colspan=6> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6>Р входе, бар изб.</td>
+                                                    <td colspan=6> <input name=""> </td>
+                                                    <td colspan=6>Р вых, бар изб.</td>
+                                                    <td colspan=6> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6>NPSHa (кавитационный запас системы), м. ст. ж.</td>
+                                                    <td colspan=6> <input name=""> </td>
+                                                    <td colspan=6>Место насоса в системе</td>
+                                                    <td colspan=6> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=24 style="padding: 0;"><span class="_body-title questionnaires__table-title">Рабочая среда</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6>Наименование твердых включений</td>
+                                                    <td colspan=18> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6>Плотность пульпы, кг/ м³</td>
+                                                    <td colspan=6> <input name=""> </td>
+                                                    <td colspan=6>Содержание тв. включений, % (по весу/по объему</td>
+                                                    <td colspan=6> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6>Плотность жидкого, кг/м3 /</td>
+                                                    <td colspan=6> <input name=""> </td>
+                                                    <td colspan=6>Хим. состав пульпы</td>
+                                                    <td colspan=6> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6>Плотность твердого, кг/м3</td>
+                                                    <td colspan=6> <input name=""> </td>
+                                                    <td colspan=6>Твердость включений, ВН</td>
+                                                    <td colspan=6> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6 rowspan=3>Гранулометрический состав</td>
+                                                    <td colspan=5> <input name=""> </td>
+                                                    <td colspan=5> <input name=""> </td>
+                                                    <td colspan=4> <input name=""> </td>
+                                                    <td colspan=4> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=5> <input name=""> </td>
+                                                    <td colspan=5> <input name=""> </td>
+                                                    <td colspan=4> <input name=""> </td>
+                                                    <td colspan=4> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=5> <input name=""> </td>
+                                                    <td colspan=5> <input name=""> </td>
+                                                    <td colspan=4> <input name=""> </td>
+                                                    <td colspan=4> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6>Коэффициент пенности (1 если пены нет)</td>
+                                                    <td colspan=6> <input name=""> </td>
+                                                    <td colspan=6>Концентрация частиц менее 75 микрон,%</td>
+                                                    <td colspan=6> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6>pH пульпы</td>
+                                                    <td colspan=6> <input name=""> </td>
+                                                    <td colspan=6>Вязкость, сСт</td>
+                                                    <td colspan=6> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6>Температура,ºС</td>
+                                                    <td colspan=18> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=24 style="padding: 0;"><span class="_body-title questionnaires__table-title">Электродвигатель</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6>Частота, мин-1</td>
+                                                    <td colspan=6> <input name=""> </td>
+                                                    <td colspan=6>Скорость, мин-1</td>
+                                                    <td colspan=6> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6>Кол-во фаз</td>
+                                                    <td colspan=6> <input name=""> </td>
+                                                    <td colspan=6>Напряжение, В</td>
+                                                    <td colspan=6> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6>Класс изоляции</td>
+                                                    <td colspan=6> <input name=""> </td>
+                                                    <td colspan=6>Класс защиты</td>
+                                                    <td colspan=6> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6>Взрывозащита</td>
+                                                    <td colspan=6> <input name=""> </td>
+                                                    <td colspan=6>КИПиА</td>
+                                                    <td colspan=6> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6>Частота, Гц</td>
+                                                    <td colspan=6> <input name=""> </td>
+                                                    <td colspan=6>Напряжение, В</td>
+                                                    <td colspan=6> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6>Всас DN (mm)</td>
+                                                    <td colspan=6> <input name=""> </td>
+                                                    <td colspan=6>Нагнетание DN (mm)</td>
+                                                    <td colspan=6> <input name=""> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan=6>Условия эксплуатации: (помещение, открытая площадка и т.п.; а так же min и max температура окружающей среды)</td>
+                                                    <td colspan=18> <input name=""> </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="questionnaires__table-mobile table-mobile">
+                                            <div class=table-mobile__header><span class=table-mobile__title>Опросный лист для пульпового и шламового насоса (не погружного)</span></div><span class="_body-title table-mobile__subtitle">информация о заказчике</span>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>Наименование участка</label> <input class=table-mobile__input name=""> </div>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>Контактное лицо</label> <input class=table-mobile__input name=""> </div>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>Телефон</label> <input class=table-mobile__input name=""> </div>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>Email</label> <input class=table-mobile__input name=""> </div><span class="_body-title table-mobile__subtitle">количество, тип</span><b class=table-mobile__subtitle>Кол-во насосов</b>
+                                            <div class=table-mobile__item-items>
+                                                <div class="table-mobile__item _item-sm-mobile"> <label class=table-mobile__label style="width: 35%;">рабочих</label> <input class=table-mobile__input name="" style="width: 65%;"> </div>
+                                                <div class="table-mobile__item _item-sm-mobile"> <label class=table-mobile__label style="width: 35%;">резервных</label> <input class=table-mobile__input name="" style="width: 65%;"> </div>
+                                            </div><b class=table-mobile__subtitle>Тип насоса</b>
+                                            <div class="table-mobile__item _mobile-items">
+                                                <div class=table-mobile__item-items>
+                                                    <div class=questionnaires__table-item> <input id=horizontal-mobile type=checkbox value="" name=""> <label for=horizontal-mobile>горизонтальный</label> </div>
+                                                    <div class=questionnaires__table-item> <input id=self-priming-mobile type=checkbox value="" name=""> <label for=self-priming-mobile>самовсасывающий</label> </div>
+                                                </div>
+                                                <div class=table-mobile__item-items>
+                                                    <div class=questionnaires__table-item> <input id=cantilevered-mobile type=checkbox value="" name=""> <label for=cantilevered-mobile>консольный</label> </div>
+                                                    <div class=questionnaires__table-item> <input id=vertical-mobile type=checkbox value="" name=""> <label for=vertical-mobile>вертикальный</label> </div>
+                                                </div>
+                                            </div>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>Укажите марку существующего оборудования и материал колеса и улиты</label> <textarea class=table-mobile__textarea name="" style="border: none;"></textarea> </div><span class="_body-title table-mobile__subtitle">Характеристики</span>
+                                            <div class=table-mobile__item-items>
+                                                <div class="table-mobile__item _item-sm-mobile"> <label class=table-mobile__label style="width: 60%; text-align: unset;">Подача Q НОМ, м³/ч</label> <input class=table-mobile__input name="" style="width: 40%;"> </div>
+                                                <div class="table-mobile__item _item-sm-mobile"> <label class=table-mobile__label style="width: 60%; text-align: unset;">Н НОМ, м. ст. ж.</label> <input class=table-mobile__input name="" style="width: 40%;"> </div>
+                                                <div class="table-mobile__item _item-sm-mobile"> <label class=table-mobile__label style="width: 60%; text-align: unset;">Подача Q MIN, м³/ч</label> <input class=table-mobile__input name="" style="width: 40%;"> </div>
+                                                <div class="table-mobile__item _item-sm-mobile"> <label class=table-mobile__label style="width: 60%; text-align: unset;">Подача QМАХ, м³/ч</label> <input class=table-mobile__input name="" style="width: 40%;"> </div>
+                                                <div class="table-mobile__item _item-sm-mobile"> <label class=table-mobile__label style="width: 60%; text-align: unset;">Р нас. паров, бар абс.</label> <input class=table-mobile__input name="" style="width: 40%;"> </div>
+                                                <div class="table-mobile__item _item-sm-mobile"> <label class=table-mobile__label style="width: 60%; text-align: unset;">Р МАХ сист., бар изб.</label> <input class=table-mobile__input name="" style="width: 40%;"> </div>
+                                                <div class="table-mobile__item _item-sm-mobile"> <label class=table-mobile__label style="width: 60%; text-align: unset;">Р входе, бар изб.</label> <input class=table-mobile__input name="" style="width: 40%; border-bottom: 1px solid rgba(216, 216, 216, 1);"> </div>
+                                                <div class="table-mobile__item _item-sm-mobile"> <label class=table-mobile__label style="width: 60%; text-align: unset;">Р вых, бар изб.</label> <input class=table-mobile__input name="" style="width: 40%;"> </div>
+                                            </div>
+                                            <div class=table-mobile__item> <label class=table-mobile__label><b>NPSHa</b> (кавитационный запас системы), м. ст. ж.</label> <input class=table-mobile__input name=""> </div>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>Место насоса в системе</label> <input class=table-mobile__input name=""> </div><span class="_body-title table-mobile__subtitle">Рабочая среда</span>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>Наименование твердых включений</label> <input class=table-mobile__input name=""> </div>
+                                            <div class=table-mobile__item-items>
+                                                <div class="table-mobile__item _item-sm-mobile"> <label class=table-mobile__label style="width: 65%; text-align: unset; font-size: 14px;">Плотность пульпы, кг/ м³</label> <input class=table-mobile__input name="" style="width: 35%;"> </div>
+                                                <div class="table-mobile__item _item-sm-mobile"> <label class=table-mobile__label style="width: 65%; text-align: unset; font-size: 14px;">Плотность жидкого, кг/м3</label> <input class=table-mobile__input name="" style="width: 35%;"> </div>
+                                                <div class="table-mobile__item _item-sm-mobile"> <label class=table-mobile__label style="width: 65%; text-align: unset; font-size: 14px;">Плотность твердого, кг/м3</label> <input class=table-mobile__input name="" style="width: 35%;"> </div>
+                                            </div>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>Содержание тв. включений, % (по весу/по объему</label> <input class=table-mobile__input name=""> </div>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>Хим. состав пульпы</label> <input class=table-mobile__input name=""> </div>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>Твердость включений, ВН</label> <input class=table-mobile__input name=""> </div>
+                                            <div class=table-mobile__item>
+                                                <div class=table-mobile__label>Гранулометрический состав</div>
+                                                <div class="table-mobile__item _mobile-big-items">
+                                                    <div class=table-mobile__item-items>
+                                                        <div class=table-mobile__item> <input class=table-mobile__input name=""> </div>
+                                                        <div class=table-mobile__item> <input class=table-mobile__input name=""> </div>
+                                                        <div class=table-mobile__item> <input class=table-mobile__input name=""> </div>
+                                                        <div class=table-mobile__item> <input class=table-mobile__input name=""> </div>
+                                                        <div class=table-mobile__item> <input class=table-mobile__input name=""> </div>
+                                                        <div class=table-mobile__item> <input class=table-mobile__input name=""> </div>
+                                                    </div>
+                                                    <div class=table-mobile__item-items>
+                                                        <div class=table-mobile__item> <input class=table-mobile__input name=""> </div>
+                                                        <div class=table-mobile__item> <input class=table-mobile__input name=""> </div>
+                                                        <div class=table-mobile__item> <input class=table-mobile__input name=""> </div>
+                                                        <div class=table-mobile__item> <input class=table-mobile__input name=""> </div>
+                                                        <div class=table-mobile__item> <input class=table-mobile__input name=""> </div>
+                                                        <div class=table-mobile__item> <input class=table-mobile__input name=""> </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>Коэффициент пенности (1 если пены нет)</label> <input class=table-mobile__input name=""> </div>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>Концентрация частиц менее 75 микрон,%</label> <input class=table-mobile__input name=""> </div>
+                                            <div class=table-mobile__item-items>
+                                                <div class="table-mobile__item _item-sm-mobile"> <label class=table-mobile__label style="width: 55%; text-align: unset;">pH пульпы</label> <input class=table-mobile__input name="" style="width: 45%;"> </div>
+                                                <div class="table-mobile__item _item-sm-mobile"> <label class=table-mobile__label style="width: 55%; text-align: unset;">Вязкость, сСт</label> <input class=table-mobile__input name="" style="width: 45%;"> </div>
+                                                <div class="table-mobile__item _item-sm-mobile"> <label class=table-mobile__label style="width: 55%; text-align: unset;">Температура,ºС</label> <input class=table-mobile__input name="" style="width: 45%;"> </div>
+                                            </div><span class="_body-title table-mobile__subtitle">Электродвигатель</span>
+                                            <div class=table-mobile__item-items>
+                                                <div class="table-mobile__item _item-sm-mobile"> <label class=table-mobile__label style="width: 55%; text-align: unset;">Частота, мин-1</label> <input class=table-mobile__input name="" style="width: 45%;"> </div>
+                                                <div class="table-mobile__item _item-sm-mobile"> <label class=table-mobile__label style="width: 55%; text-align: unset;">Скорость, мин-1</label> <input class=table-mobile__input name="" style="width: 45%;"> </div>
+                                                <div class="table-mobile__item _item-sm-mobile"> <label class=table-mobile__label style="width: 55%; text-align: unset;">Кол-во фаз</label> <input class=table-mobile__input name="" style="width: 45%;"> </div>
+                                                <div class="table-mobile__item _item-sm-mobile"> <label class=table-mobile__label style="width: 55%; text-align: unset;">Напряжение, В</label> <input class=table-mobile__input name="" style="width: 45%;"> </div>
+                                                <div class="table-mobile__item _item-sm-mobile"> <label class=table-mobile__label style="width: 55%; text-align: unset;">Класс изоляции</label> <input class=table-mobile__input name="" style="width: 45%;"> </div>
+                                                <div class="table-mobile__item _item-sm-mobile"> <label class=table-mobile__label style="width: 55%; text-align: unset;">Класс защиты</label> <input class=table-mobile__input name="" style="width: 45%;"> </div>
+                                                <div class="table-mobile__item _item-sm-mobile"> <label class=table-mobile__label style="width: 55%; text-align: unset;">Взрывозащита</label> <input class=table-mobile__input name="" style="width: 45%; border-bottom: 1px solid rgba(216, 216, 216, 1);"> </div>
+                                                <div class="table-mobile__item _item-sm-mobile"> <label class=table-mobile__label style="width: 55%; text-align: unset;">КИПиА</label> <input class=table-mobile__input name="" style="width: 45%;"> </div>
+                                                <div class="table-mobile__item _item-sm-mobile"> <label class=table-mobile__label style="width: 55%; text-align: unset;">Частота, Гц</label> <input class=table-mobile__input name="" style="width: 45%;"> </div>
+                                                <div class="table-mobile__item _item-sm-mobile"> <label class=table-mobile__label style="width: 55%; text-align: unset;">Напряжение, В</label> <input class=table-mobile__input name="" style="width: 45%;"> </div>
+                                                <div class="table-mobile__item _item-sm-mobile"> <label class=table-mobile__label style="width: 55%; text-align: unset;">Всас DN (mm)</label> <input class=table-mobile__input name="" style="width: 45%;"> </div>
+                                                <div class="table-mobile__item _item-sm-mobile"> <label class=table-mobile__label style="width: 55%; text-align: unset;">Нагнетание DN (mm)</label> <input class=table-mobile__input name="" style="width: 45%; border-bottom: 1px solid rgba(216, 216, 216, 1);"> </div>
+                                            </div>
+                                            <div class=table-mobile__item> <label class=table-mobile__label>Условия эксплуатации: (помещение, открытая площадка и т.п.; а так же min и max температура окружающей среды)</label> <textarea class=table-mobile__textarea name="" style="border: none;"></textarea> </div>
+                                        </div>
+                                    </div> <button class="_btn-red questionnaires__form-btn" style="--btn-red-width: 247px;" type=submit>Отправить заявку</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class=footer id=footer>
+            <div class=footer__container>
+                <div class=footer__content>
+                    <div class=footer__header><a class=footer__logo href="">
+                            <picture>
+                                <source srcset=images/logo-footer.webp type=image/webp><img class=footer__img src=images/logo-footer.png alt="" loading=lazy>
+                            </picture>
+                        </a></div>
+                    <div class=footer__body>
+                        <div class=footer__body-left>
+                            <nav class=footer__nav>
+                                <ul class=footer__list>
+                                    <li class=footer__item><a class=footer__link href=index.html>Главная</a></li>
+                                    <li class=footer__item><a class=footer__link href=about.html>О коммпании</a></li>
+                                    <li class=footer__item><a class=footer__link href=products.html>Продукция</a></li>
+                                    <li class=footer__item><a class=footer__link href=certificates.html>Сертификаты</a></li>
+                                    <li class=footer__item><a class=footer__link href=specialists.html>Специалистам</a></li>
+                                    <li class=footer__item><a class=footer__link href=reviews.html>Отзывы</a></li>
+                                    <li class=footer__item><a class=footer__link href=references.html>Референции</a></li>
+                                    <li class=footer__item><a class=footer__link href=contacts.html>Контакты</a></li>
+                                    <li class=footer__item><a class=footer__link href=policy.html>Политика конфиденциальности</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class=footer__body-right>
+                            <div class=footer__copy><span class=footer__copy-text>© 2003-2022 ООО "МЕТАРОССА"</span></div>
+                            <div class=footer__info>
+                                <div class=footer__info-item><a class="_phone-phone footer__info-tel" href=tel:+74959257588>+7 (495) 925 75 88</a><span class="_phone-text footer__info-text">многоканальный</span></div>
+                                <div class=footer__info-item><a class="_phone-phone footer__info-tel" href=tel:88002505888>8 800 250 58 88</a><span class="_phone-text footer__info-text">бесплатный по России</span></div>
+                                <div class=footer__info-item><a class="_phone-phone footer__info-email" href=mailto:zakaz@metarossa.ru>zakaz@metarossa.ru</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="modal modal-login" id=login>
+        <div class=modal__content>
+            <div class=modal__header> <button class="_icon-cross-small modal__close" type=button></button> </div>
+            <div class=modal__body>
+                <h2 class="_title modal__register-title">Войти в систему</h2><span class=modal__register-note>Для зарегистрированных пользователей</span>
+                <form class=modal__register-form id=form-login>
+                    <div class=form__item> <label class=form__label for=login-name></label> <input class="_br _border form__input" id=login-name name=login-name placeholder=логин> </div>
+                    <div class=form__item> <label class=form__label for=login-password></label> <input class="_br _border form__input" id=login-password type=password name=login-password placeholder=пароль> </div>
+                    <div class=modal__register-footer> <button class="_btn-red modal__register-btn" style="--btn-red-width: 247px;" type=submit>Войти</button><a class="popup-link modal__register-link" href=#password>Забыли пароль?</a><span class=modal__register-or>или</span><a class="popup-link modal__register-link" href=#register>Подать заявку на регистрацию</a> </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="modal modal-register" id=register>
+        <div class=modal__content>
+            <div class=modal__header> <button class="_icon-cross-small modal__close" type=button></button> </div>
+            <div class=modal__body>
+                <h2 class="_title modal__register-title">Заявка на регистрацию</h2><span class=modal__register-note>Заполните анкету</span>
+                <form class=modal__register-form id=form-request>
+                    <div class=modal__register-inner>
+                        <div class=modal__register-left>
+                            <h3 class=modal__register-subtitle>Контактные данные</h3>
+                            <div class=form__item> <label class=form__label for=register-name></label> <input class="_br _border form__input" id=register-name name=register-name placeholder=имя> </div>
+                            <div class=form__item> <label class=form__label for=register-surname></label> <input class="_br _border form__input" id=register-surname name=register-surname placeholder=фамилия> </div>
+                            <div class=form__item> <label class=form__label for=register-patronymic></label> <input class="_br _border form__input" id=register-patronymic name=register-patronymic placeholder=отчество> </div>
+                            <div class=form__item> <label class=form__label for=register-company></label> <input class="_br _border form__input" id=register-company name=register-company placeholder=предприятие> </div>
+                            <div class=form__item> <label class=form__label for=register-subdivision></label> <input class="_br _border form__input" id=register-subdivision name=register-subdivision placeholder=подразделение> </div>
+                            <div class=form__item> <label class=form__label for=register-work-phone></label> <input class="_br _border form__input" id=register-work-phone type=tel name=register-work-phone placeholder="рабочий телефон"> </div>
+                            <div class=form__item> <label class=form__label for=register-mobile-phone></label> <input class="_br _border form__input" id=register-mobile-phone type=tel name=register-mobile-phone placeholder="мобильный телефон"> </div>
+                            <div class=form__item> <label class=form__label for=register-email></label> <input class="_br _border form__input" id=register-email type=email name=register-email placeholder="адрес эл. почты"> </div>
+                        </div>
+                        <div class=modal__register-right>
+                            <h3 class=modal__register-subtitle>Категория специалиста</h3>
+                            <div class=modal__register-items>
+                                <div class=form__item> <input class="_br _border form__input" id=mechanic checked=checked type=radio value=Механик name=category> <label class=form__label for=mechanic><span class=form__input-check-text>Механик</span></label> </div>
+                                <div class=form__item> <input class="_br _border form__input" id=engineer type=radio value=Инженер name=category> <label class=form__label for=engineer><span class=form__input-check-text>Инженер</span></label> </div>
+                                <div class=form__item> <input class="_br _border form__input" id=technologist type=radio value=Технолог name=category> <label class=form__label for=technologist><span class=form__input-check-text>Технолог</span></label> </div>
+                                <div class=form__item> <input class="_br _border form__input" id=designer type=radio value=Проектант name=category> <label class=form__label for=designer><span class=form__input-check-text>Проектант</span></label> </div>
+                                <div class=form__item> <input class="_br _border form__input" id=kip-specialist type=radio value="Специалист КИП и А" name=category> <label class=form__label for=kip-specialist><span class=form__input-check-text>Специалист КИП и А</span></label> </div>
+                            </div>
+                            <h3 class=modal__register-subtitle>Задача, для которой Вы на сайте</h3>
+                            <p class=modal__register-text>1. Подготовить заявку для ремонта или рекомендации с указанием:</p>
+                            <div class=modal__register-radio-items>
+                                <div class=modal__register-radio-item>
+                                    <div class=modal__register-radio-btn> <input class=form__radio id=radio1 type=radio value=1 name=radio1> <label class=form__radio-label for=radio1><span class=modal__register-radio-text>только тех. требования в опросном листе</span></label> </div>
+                                </div>
+                                <div class=modal__register-radio-item>
+                                    <div class=modal__register-radio-btn> <input class=form__radio id=radio2 type=radio value=2 name=radio1> <label class=form__radio-label for=radio2><span class=modal__register-radio-text>Вы имеете полномочия указывать конструкцию и бренд</span></label> </div>
+                                </div>
+                            </div>
+                            <p class=modal__register-text>2. Составить проектную спецификацию с указанием:</p>
+                            <div class=modal__register-radio-items>
+                                <div class=modal__register-radio-item>
+                                    <div class=modal__register-radio-btn> <input class=form__radio id=radio3 type=radio value=3 name=radio2> <label class=form__radio-label for=radio3><span class=modal__register-radio-text>только тех. требования в опросном листе</span></label> </div>
+                                </div>
+                                <div class=modal__register-radio-item>
+                                    <div class=modal__register-radio-btn> <input class=form__radio id=radio4 type=radio value=4 name=radio2> <label class=form__radio-label for=radio4><span class=modal__register-radio-text>Вы имеете полномочия указывать конструкцию и бренд</span></label> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=modal__register-footer> <button class="_btn-red modal__register-btn" style="--btn-red-width: 247px;" type=submit>Отправить заявку</button><span class=modal__register-or>или</span><a class="popup-link modal__register-link" href=#login>Войти в систему</a> </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="modal modal-login-two" id=login-two>
+        <div class=modal__content>
+            <div class=modal__header> <button class="_icon-cross-small modal__close" type=button></button> </div>
+            <div class=modal__body>
+                <h2 class="_title modal__register-title">Войти в систему</h2><span class=modal__register-note>Для просмотра данного раздела необходимо войти в систему</span>
+                <form class=modal__register-form id=form-login-two>
+                    <div class=form__item> <label class=form__label for=login-name-two></label> <input class="_br _border form__input" id=login-name-two name=login-name-two placeholder=логин> </div>
+                    <div class=form__item> <label class=form__label for=login-password-two></label> <input class="_br _border form__input" id=login-password-two type=password name=login-password-two placeholder=пароль> </div>
+                    <div class=modal__register-footer> <button class="_btn-red modal__register-btn" style="--btn-red-width: 247px;" type=submit>Войти</button><a class="popup-link modal__register-link" href=#password>Забыли пароль?</a><span class=modal__register-or>или</span><a class="popup-link modal__register-link" href=#register>Подать заявку на регистрацию</a> </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="modal modal-login-thanks" id="">
+        <div class=modal__content>
+            <div class=modal__header> <button class="_icon-cross-small modal__close" type=button></button> </div>
+            <div class=modal__body>
+                <h2 class="_title modal__register-title">Спасибо за регистрацию!</h2><span class=modal__register-note>Наши специалисты рассмотрят Вашу заявку, и свяжутся по электронной почте с указанием дальнейшей инструкции.</span><a class="_btn-red modal__register-btn" style="--btn-red-width: 247px;" href=index.html>На главную страницу</a>
+            </div>
+        </div>
+    </div>
+    <div class="modal modal-login-password" id=password>
+        <div class=modal__content>
+            <div class=modal__header> <button class="_icon-cross-small modal__close" type=button></button> </div>
+            <div class=modal__body>
+                <h2 class="_title modal__register-title">Сбросить пароль</h2><span class=modal__register-note>Введите адрес своей электронной почты и мы вышлем Вам ссылку для востановления пароля</span>
+                <form class=modal__register-form id=form-login-password>
+                    <div class=form__item> <label class=form__label for=login-email-password></label> <input class="_br _border form__input" id=login-email-password type=email name=login-email-password placeholder="адрес эл. почты"> </div>
+                    <div class=modal__register-footer> <button class="_btn-red modal__register-btn" style="--btn-red-width: 160px;" type=submit>Отправить</button> <button class="modal__register-btn _btn-border" type=reset>Отменить</button> </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="modal modal-login-password-restore" id=login-password-restore>
+        <div class=modal__content>
+            <div class=modal__header> <button class="_icon-cross-small modal__close" type=button></button> </div>
+            <div class=modal__body>
+                <h2 class="_title modal__register-title">Восстаносить пароль</h2><span class=modal__register-note>Для восстановления пароля введите новый</span>
+                <form class=modal__register-form id=form-login-password-restore>
+                    <div class=form__item> <label class=form__label for=password-restore-one></label> <input class="_br _border form__input" id=password-restore-one type=password name=password-restore-one placeholder="введите новый пароль"> </div>
+                    <div class=form__item> <label class=form__label for=password-restore-two></label> <input class="_br _border form__input" id=password-restore-two type=password name=password-restore-two placeholder="повторите новый пароль"> </div>
+                    <div class=modal__register-footer> <button class="_btn-red modal__register-btn" style="--btn-red-width: 247px;" type=submit>Сохранить</button> </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src=js/index.js></script>
+</body>
+
+</html>
